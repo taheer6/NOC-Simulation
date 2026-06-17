@@ -1,0 +1,10594 @@
+$date
+     Apr 07, 2026       17:22:45
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Sep 10 2012 16:44:06
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  s_clock       $end
+$var wire    1  aab  r_clock       $end
+$var wire    1  aac  d_clock       $end
+$var wire   11  aad  si_source_0.data [10:0]  $end
+$var wire    4  aae  si_source_0.id [3:0]  $end
+$var wire    4  aaf  si_source_0.dest [3:0]  $end
+$var wire    1  aag  si_source_0.pkt_clk       $end
+$var wire    1  aah  si_source_0.h_t       $end
+$var wire   11  aai  si_sink_0.data [10:0]  $end
+$var wire    4  aaj  si_sink_0.id [3:0]  $end
+$var wire    4  aak  si_sink_0.dest [3:0]  $end
+$var wire    1  aal  si_sink_0.pkt_clk       $end
+$var wire    1  aam  si_sink_0.h_t       $end
+$var wire    4  aan  dest_0 [3:0]  $end
+$var wire   11  aao  si_source_1.data [10:0]  $end
+$var wire    4  aap  si_source_1.id [3:0]  $end
+$var wire    4  aaq  si_source_1.dest [3:0]  $end
+$var wire    1  aar  si_source_1.pkt_clk       $end
+$var wire    1  aas  si_source_1.h_t       $end
+$var wire   11  aat  si_sink_1.data [10:0]  $end
+$var wire    4  aau  si_sink_1.id [3:0]  $end
+$var wire    4  aav  si_sink_1.dest [3:0]  $end
+$var wire    1  aaw  si_sink_1.pkt_clk       $end
+$var wire    1  aax  si_sink_1.h_t       $end
+$var wire    4  aay  dest_1 [3:0]  $end
+$var wire   11  aaz  si_source_2.data [10:0]  $end
+$var wire    4  aba  si_source_2.id [3:0]  $end
+$var wire    4  abb  si_source_2.dest [3:0]  $end
+$var wire    1  abc  si_source_2.pkt_clk       $end
+$var wire    1  abd  si_source_2.h_t       $end
+$var wire   11  abe  si_sink_2.data [10:0]  $end
+$var wire    4  abf  si_sink_2.id [3:0]  $end
+$var wire    4  abg  si_sink_2.dest [3:0]  $end
+$var wire    1  abh  si_sink_2.pkt_clk       $end
+$var wire    1  abi  si_sink_2.h_t       $end
+$var wire    4  abj  dest_2 [3:0]  $end
+$var wire   11  abk  si_source_3.data [10:0]  $end
+$var wire    4  abl  si_source_3.id [3:0]  $end
+$var wire    4  abm  si_source_3.dest [3:0]  $end
+$var wire    1  abn  si_source_3.pkt_clk       $end
+$var wire    1  abo  si_source_3.h_t       $end
+$var wire   11  abp  si_sink_3.data [10:0]  $end
+$var wire    4  abq  si_sink_3.id [3:0]  $end
+$var wire    4  abr  si_sink_3.dest [3:0]  $end
+$var wire    1  abs  si_sink_3.pkt_clk       $end
+$var wire    1  abt  si_sink_3.h_t       $end
+$var wire    4  abu  dest_3 [3:0]  $end
+$var wire   11  abv  si_source_4.data [10:0]  $end
+$var wire    4  abw  si_source_4.id [3:0]  $end
+$var wire    4  abx  si_source_4.dest [3:0]  $end
+$var wire    1  aby  si_source_4.pkt_clk       $end
+$var wire    1  abz  si_source_4.h_t       $end
+$var wire   11  aca  si_sink_4.data [10:0]  $end
+$var wire    4  acb  si_sink_4.id [3:0]  $end
+$var wire    4  acc  si_sink_4.dest [3:0]  $end
+$var wire    1  acd  si_sink_4.pkt_clk       $end
+$var wire    1  ace  si_sink_4.h_t       $end
+$var wire    4  acf  dest_4 [3:0]  $end
+$var wire   11  acg  si_source_5.data [10:0]  $end
+$var wire    4  ach  si_source_5.id [3:0]  $end
+$var wire    4  aci  si_source_5.dest [3:0]  $end
+$var wire    1  acj  si_source_5.pkt_clk       $end
+$var wire    1  ack  si_source_5.h_t       $end
+$var wire   11  acl  si_sink_5.data [10:0]  $end
+$var wire    4  acm  si_sink_5.id [3:0]  $end
+$var wire    4  acn  si_sink_5.dest [3:0]  $end
+$var wire    1  aco  si_sink_5.pkt_clk       $end
+$var wire    1  acp  si_sink_5.h_t       $end
+$var wire    4  acq  dest_5 [3:0]  $end
+$var wire   11  acr  si_source_6.data [10:0]  $end
+$var wire    4  acs  si_source_6.id [3:0]  $end
+$var wire    4  act  si_source_6.dest [3:0]  $end
+$var wire    1  acu  si_source_6.pkt_clk       $end
+$var wire    1  acv  si_source_6.h_t       $end
+$var wire   11  acw  si_sink_6.data [10:0]  $end
+$var wire    4  acx  si_sink_6.id [3:0]  $end
+$var wire    4  acy  si_sink_6.dest [3:0]  $end
+$var wire    1  acz  si_sink_6.pkt_clk       $end
+$var wire    1  ada  si_sink_6.h_t       $end
+$var wire    4  adb  dest_6 [3:0]  $end
+$var wire   11  adc  si_source_7.data [10:0]  $end
+$var wire    4  add  si_source_7.id [3:0]  $end
+$var wire    4  ade  si_source_7.dest [3:0]  $end
+$var wire    1  adf  si_source_7.pkt_clk       $end
+$var wire    1  adg  si_source_7.h_t       $end
+$var wire   11  adh  si_sink_7.data [10:0]  $end
+$var wire    4  adi  si_sink_7.id [3:0]  $end
+$var wire    4  adj  si_sink_7.dest [3:0]  $end
+$var wire    1  adk  si_sink_7.pkt_clk       $end
+$var wire    1  adl  si_sink_7.h_t       $end
+$var wire    4  adm  dest_7 [3:0]  $end
+$var wire   11  adn  si_source_8.data [10:0]  $end
+$var wire    4  ado  si_source_8.id [3:0]  $end
+$var wire    4  adp  si_source_8.dest [3:0]  $end
+$var wire    1  adq  si_source_8.pkt_clk       $end
+$var wire    1  adr  si_source_8.h_t       $end
+$var wire   11  ads  si_sink_8.data [10:0]  $end
+$var wire    4  adt  si_sink_8.id [3:0]  $end
+$var wire    4  adu  si_sink_8.dest [3:0]  $end
+$var wire    1  adv  si_sink_8.pkt_clk       $end
+$var wire    1  adw  si_sink_8.h_t       $end
+$var wire    4  adx  dest_8 [3:0]  $end
+$var wire   11  ady  si_source_9.data [10:0]  $end
+$var wire    4  adz  si_source_9.id [3:0]  $end
+$var wire    4  aea  si_source_9.dest [3:0]  $end
+$var wire    1  aeb  si_source_9.pkt_clk       $end
+$var wire    1  aec  si_source_9.h_t       $end
+$var wire   11  aed  si_sink_9.data [10:0]  $end
+$var wire    4  aee  si_sink_9.id [3:0]  $end
+$var wire    4  aef  si_sink_9.dest [3:0]  $end
+$var wire    1  aeg  si_sink_9.pkt_clk       $end
+$var wire    1  aeh  si_sink_9.h_t       $end
+$var wire    4  aei  dest_9 [3:0]  $end
+$var wire   11  aej  si_source_10.data [10:0]  $end
+$var wire    4  aek  si_source_10.id [3:0]  $end
+$var wire    4  ael  si_source_10.dest [3:0]  $end
+$var wire    1  aem  si_source_10.pkt_clk       $end
+$var wire    1  aen  si_source_10.h_t       $end
+$var wire   11  aeo  si_sink_10.data [10:0]  $end
+$var wire    4  aep  si_sink_10.id [3:0]  $end
+$var wire    4  aeq  si_sink_10.dest [3:0]  $end
+$var wire    1  aer  si_sink_10.pkt_clk       $end
+$var wire    1  aes  si_sink_10.h_t       $end
+$var wire    4  aet  dest_10 [3:0]  $end
+$var wire   11  aeu  si_source_11.data [10:0]  $end
+$var wire    4  aev  si_source_11.id [3:0]  $end
+$var wire    4  aew  si_source_11.dest [3:0]  $end
+$var wire    1  aex  si_source_11.pkt_clk       $end
+$var wire    1  aey  si_source_11.h_t       $end
+$var wire   11  aez  si_sink_11.data [10:0]  $end
+$var wire    4  afa  si_sink_11.id [3:0]  $end
+$var wire    4  afb  si_sink_11.dest [3:0]  $end
+$var wire    1  afc  si_sink_11.pkt_clk       $end
+$var wire    1  afd  si_sink_11.h_t       $end
+$var wire    4  afe  dest_11 [3:0]  $end
+$var wire   11  aff  si_source_12.data [10:0]  $end
+$var wire    4  afg  si_source_12.id [3:0]  $end
+$var wire    4  afh  si_source_12.dest [3:0]  $end
+$var wire    1  afi  si_source_12.pkt_clk       $end
+$var wire    1  afj  si_source_12.h_t       $end
+$var wire   11  afk  si_sink_12.data [10:0]  $end
+$var wire    4  afl  si_sink_12.id [3:0]  $end
+$var wire    4  afm  si_sink_12.dest [3:0]  $end
+$var wire    1  afn  si_sink_12.pkt_clk       $end
+$var wire    1  afo  si_sink_12.h_t       $end
+$var wire    4  afp  dest_12 [3:0]  $end
+$var wire   11  afq  si_source_13.data [10:0]  $end
+$var wire    4  afr  si_source_13.id [3:0]  $end
+$var wire    4  afs  si_source_13.dest [3:0]  $end
+$var wire    1  aft  si_source_13.pkt_clk       $end
+$var wire    1  afu  si_source_13.h_t       $end
+$var wire   11  afv  si_sink_13.data [10:0]  $end
+$var wire    4  afw  si_sink_13.id [3:0]  $end
+$var wire    4  afx  si_sink_13.dest [3:0]  $end
+$var wire    1  afy  si_sink_13.pkt_clk       $end
+$var wire    1  afz  si_sink_13.h_t       $end
+$var wire    4  aga  dest_13 [3:0]  $end
+$var wire   11  agb  si_source_14.data [10:0]  $end
+$var wire    4  agc  si_source_14.id [3:0]  $end
+$var wire    4  agd  si_source_14.dest [3:0]  $end
+$var wire    1  age  si_source_14.pkt_clk       $end
+$var wire    1  agf  si_source_14.h_t       $end
+$var wire   11  agg  si_sink_14.data [10:0]  $end
+$var wire    4  agh  si_sink_14.id [3:0]  $end
+$var wire    4  agi  si_sink_14.dest [3:0]  $end
+$var wire    1  agj  si_sink_14.pkt_clk       $end
+$var wire    1  agk  si_sink_14.h_t       $end
+$var wire    4  agl  dest_14 [3:0]  $end
+$var wire   11  agm  si_source_15.data [10:0]  $end
+$var wire    4  agn  si_source_15.id [3:0]  $end
+$var wire    4  ago  si_source_15.dest [3:0]  $end
+$var wire    1  agp  si_source_15.pkt_clk       $end
+$var wire    1  agq  si_source_15.h_t       $end
+$var wire   11  agr  si_sink_15.data [10:0]  $end
+$var wire    4  ags  si_sink_15.id [3:0]  $end
+$var wire    4  agt  si_sink_15.dest [3:0]  $end
+$var wire    1  agu  si_sink_15.pkt_clk       $end
+$var wire    1  agv  si_sink_15.h_t       $end
+$var wire    4  agw  dest_15 [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+0aac
+b0 aad
+b0 aae
+b0 aaf
+0aag
+0aah
+b0 aai
+b0 aaj
+b0 aak
+0aal
+0aam
+b1 aan
+b0 aao
+b0 aap
+b0 aaq
+0aar
+0aas
+b0 aat
+b0 aau
+b0 aav
+0aaw
+0aax
+b0 aay
+b0 aaz
+b0 aba
+b0 abb
+0abc
+0abd
+b0 abe
+b0 abf
+b0 abg
+0abh
+0abi
+b11 abj
+b0 abk
+b0 abl
+b0 abm
+0abn
+0abo
+b0 abp
+b0 abq
+b0 abr
+0abs
+0abt
+b10 abu
+b0 abv
+b0 abw
+b0 abx
+0aby
+0abz
+b0 aca
+b0 acb
+b0 acc
+0acd
+0ace
+b101 acf
+b0 acg
+b0 ach
+b0 aci
+0acj
+0ack
+b0 acl
+b0 acm
+b0 acn
+0aco
+0acp
+b100 acq
+b0 acr
+b0 acs
+b0 act
+0acu
+0acv
+b0 acw
+b0 acx
+b0 acy
+0acz
+0ada
+b111 adb
+b0 adc
+b0 add
+b0 ade
+0adf
+0adg
+b0 adh
+b0 adi
+b0 adj
+0adk
+0adl
+b110 adm
+b0 adn
+b0 ado
+b0 adp
+0adq
+0adr
+b0 ads
+b0 adt
+b0 adu
+0adv
+0adw
+b1001 adx
+b0 ady
+b0 adz
+b0 aea
+0aeb
+0aec
+b0 aed
+b0 aee
+b0 aef
+0aeg
+0aeh
+b1000 aei
+b0 aej
+b0 aek
+b0 ael
+0aem
+0aen
+b0 aeo
+b0 aep
+b0 aeq
+0aer
+0aes
+b1011 aet
+b0 aeu
+b0 aev
+b0 aew
+0aex
+0aey
+b0 aez
+b0 afa
+b0 afb
+0afc
+0afd
+b1010 afe
+b0 aff
+b0 afg
+b0 afh
+0afi
+0afj
+b0 afk
+b0 afl
+b0 afm
+0afn
+0afo
+b1101 afp
+b0 afq
+b0 afr
+b0 afs
+0aft
+0afu
+b0 afv
+b0 afw
+b0 afx
+0afy
+0afz
+b1100 aga
+b0 agb
+b0 agc
+b0 agd
+0age
+0agf
+b0 agg
+b0 agh
+b0 agi
+0agj
+0agk
+b1111 agl
+b0 agm
+b0 agn
+b0 ago
+0agp
+0agq
+b0 agr
+b0 ags
+b0 agt
+0agu
+0agv
+b1110 agw
+$end
+
+#10000
+1aab
+1aac
+
+#12500
+0aab
+0aac
+
+#15000
+1aab
+1aac
+
+#17500
+0aab
+0aac
+
+#20000
+1aab
+1aac
+
+#22500
+0aab
+0aac
+
+#25000
+1aab
+1aac
+
+#27500
+0aab
+0aac
+
+#30000
+1aab
+1aac
+
+#32500
+0aab
+0aac
+
+#35000
+1aab
+1aac
+
+#37500
+0aab
+0aac
+
+#40000
+1aab
+1aac
+
+#42500
+0aab
+0aac
+
+#45000
+1aab
+1aac
+
+#47500
+0aab
+0aac
+
+#50000
+1aab
+1aac
+
+#52500
+0aab
+0aac
+
+#55000
+1aab
+1aac
+
+#57500
+0aab
+0aac
+
+#60000
+1aab
+1aac
+
+#62500
+0aaa
+0aab
+0aac
+
+#65000
+1aab
+1aac
+
+#67500
+0aab
+0aac
+
+#70000
+1aab
+1aac
+
+#72500
+0aab
+0aac
+
+#75000
+1aab
+1aac
+
+#77500
+0aab
+0aac
+
+#80000
+1aab
+1aac
+
+#82500
+0aab
+0aac
+
+#85000
+1aab
+1aac
+
+#87500
+0aab
+0aac
+
+#90000
+1aab
+1aac
+
+#92500
+0aab
+0aac
+
+#95000
+1aab
+1aac
+
+#97500
+0aab
+0aac
+
+#100000
+1aab
+1aac
+
+#102500
+0aab
+0aac
+
+#105000
+1aab
+1aac
+
+#107500
+0aab
+0aac
+
+#110000
+1aab
+1aac
+
+#112500
+0aab
+0aac
+
+#115000
+1aab
+1aac
+
+#117500
+0aab
+0aac
+
+#120000
+1aab
+1aac
+
+#122500
+0aab
+0aac
+
+#125000
+1aaa
+1aab
+1aac
+b1111101001 aad
+b1 aaf
+1aag
+b1111101010 aao
+b1 aap
+1aar
+b1111101011 aaz
+b10 aba
+b11 abb
+1abc
+b1111101100 abk
+b11 abl
+b10 abm
+1abn
+b1111101101 abv
+b100 abw
+b101 abx
+1aby
+b1111101110 acg
+b101 ach
+b100 aci
+1acj
+b1111101111 acr
+b110 acs
+b111 act
+1acu
+b1111110000 adc
+b111 add
+b110 ade
+1adf
+b1111110001 adn
+b1000 ado
+b1001 adp
+1adq
+b1111110010 ady
+b1001 adz
+b1000 aea
+1aeb
+b1111110011 aej
+b1010 aek
+b1011 ael
+1aem
+b1111110100 aeu
+b1011 aev
+b1010 aew
+1aex
+b1111110101 aff
+b1100 afg
+b1101 afh
+1afi
+b1111110110 afq
+b1101 afr
+b1100 afs
+1aft
+b1111110111 agb
+b1110 agc
+b1111 agd
+1age
+b1111111000 agm
+b1111 agn
+b1110 ago
+1agp
+
+#127500
+0aab
+0aac
+
+#130000
+1aab
+1aac
+
+#132500
+0aab
+0aac
+
+#135000
+1aab
+1aac
+b1111101010 aai
+b1 aaj
+1aal
+b1111101001 aat
+b1 aav
+1aaw
+b1111101100 abe
+b11 abf
+b10 abg
+1abh
+b1111101011 abp
+b10 abq
+b11 abr
+1abs
+b1111101110 aca
+b101 acb
+b100 acc
+1acd
+b1111101101 acl
+b100 acm
+b101 acn
+1aco
+b1111110000 acw
+b111 acx
+b110 acy
+1acz
+b1111101111 adh
+b110 adi
+b111 adj
+1adk
+b1111110010 ads
+b1001 adt
+b1000 adu
+1adv
+b1111110001 aed
+b1000 aee
+b1001 aef
+1aeg
+b1111110100 aeo
+b1011 aep
+b1010 aeq
+1aer
+b1111110011 aez
+b1010 afa
+b1011 afb
+1afc
+b1111110110 afk
+b1101 afl
+b1100 afm
+1afn
+b1111110101 afv
+b1100 afw
+b1101 afx
+1afy
+b1111111000 agg
+b1111 agh
+b1110 agi
+1agj
+b1111110111 agr
+b1110 ags
+b1111 agt
+1agu
+
+#137500
+0aab
+0aac
+
+#140000
+1aab
+1aac
+
+#142500
+0aab
+0aac
+
+#145000
+1aab
+1aac
+
+#147500
+0aab
+0aac
+
+#150000
+1aab
+1aac
+
+#152500
+0aab
+0aac
+
+#155000
+1aab
+1aac
+
+#157500
+0aab
+0aac
+
+#160000
+1aab
+1aac
+
+#162500
+0aab
+0aac
+
+#165000
+1aab
+1aac
+
+#167500
+0aab
+0aac
+
+#170000
+1aab
+1aac
+
+#172500
+0aab
+0aac
+
+#175000
+1aab
+1aac
+
+#177500
+0aab
+0aac
+
+#180000
+1aab
+1aac
+
+#182500
+0aab
+0aac
+
+#185000
+1aab
+1aac
+
+#187500
+0aaa
+0aab
+0aac
+
+#190000
+1aab
+1aac
+
+#192500
+0aab
+0aac
+
+#195000
+1aab
+1aac
+
+#197500
+0aab
+0aac
+
+#200000
+1aab
+1aac
+
+#202500
+0aab
+0aac
+
+#205000
+1aab
+1aac
+
+#207500
+0aab
+0aac
+
+#210000
+1aab
+1aac
+
+#212500
+0aab
+0aac
+
+#215000
+1aab
+1aac
+
+#217500
+0aab
+0aac
+
+#220000
+1aab
+1aac
+
+#222500
+0aab
+0aac
+
+#225000
+1aab
+1aac
+
+#227500
+0aab
+0aac
+
+#230000
+1aab
+1aac
+
+#232500
+0aab
+0aac
+
+#235000
+1aab
+1aac
+
+#237500
+0aab
+0aac
+
+#240000
+1aab
+1aac
+
+#242500
+0aab
+0aac
+
+#245000
+1aab
+1aac
+
+#247500
+0aab
+0aac
+
+#250000
+1aaa
+1aab
+1aac
+b1111101010 aad
+0aag
+b1111101100 aao
+0aar
+b1111101110 aaz
+0abc
+b1111110000 abk
+0abn
+b1111110010 abv
+0aby
+b1111110100 acg
+0acj
+b1111110110 acr
+0acu
+b1111111000 adc
+0adf
+b1111111010 adn
+0adq
+b1111111100 ady
+0aeb
+b1111111110 aej
+0aem
+b10000000000 aeu
+0aex
+b10000000010 aff
+0afi
+b10000000100 afq
+0aft
+b10000000110 agb
+0age
+b10000001000 agm
+0agp
+
+#252500
+0aab
+0aac
+
+#255000
+1aab
+1aac
+
+#257500
+0aab
+0aac
+
+#260000
+1aab
+1aac
+b1111101100 aai
+0aal
+b1111101010 aat
+0aaw
+b1111110000 abe
+0abh
+b1111101110 abp
+0abs
+b1111110100 aca
+0acd
+b1111110010 acl
+0aco
+b1111111000 acw
+0acz
+b1111110110 adh
+0adk
+b1111111100 ads
+0adv
+b1111111010 aed
+0aeg
+b10000000000 aeo
+0aer
+b1111111110 aez
+0afc
+b10000000100 afk
+0afn
+b10000000010 afv
+0afy
+b10000001000 agg
+0agj
+b10000000110 agr
+0agu
+
+#262500
+0aab
+0aac
+
+#265000
+1aab
+1aac
+
+#267500
+0aab
+0aac
+
+#270000
+1aab
+1aac
+
+#272500
+0aab
+0aac
+
+#275000
+1aab
+1aac
+
+#277500
+0aab
+0aac
+
+#280000
+1aab
+1aac
+
+#282500
+0aab
+0aac
+
+#285000
+1aab
+1aac
+
+#287500
+0aab
+0aac
+
+#290000
+1aab
+1aac
+
+#292500
+0aab
+0aac
+
+#295000
+1aab
+1aac
+
+#297500
+0aab
+0aac
+
+#300000
+1aab
+1aac
+
+#302500
+0aab
+0aac
+
+#305000
+1aab
+1aac
+
+#307500
+0aab
+0aac
+
+#310000
+1aab
+1aac
+
+#312500
+0aaa
+0aab
+0aac
+
+#315000
+1aab
+1aac
+
+#317500
+0aab
+0aac
+
+#320000
+1aab
+1aac
+
+#322500
+0aab
+0aac
+
+#325000
+1aab
+1aac
+
+#327500
+0aab
+0aac
+
+#330000
+1aab
+1aac
+
+#332500
+0aab
+0aac
+
+#335000
+1aab
+1aac
+
+#337500
+0aab
+0aac
+
+#340000
+1aab
+1aac
+
+#342500
+0aab
+0aac
+
+#345000
+1aab
+1aac
+
+#347500
+0aab
+0aac
+
+#350000
+1aab
+1aac
+
+#352500
+0aab
+0aac
+
+#355000
+1aab
+1aac
+
+#357500
+0aab
+0aac
+
+#360000
+1aab
+1aac
+
+#362500
+0aab
+0aac
+
+#365000
+1aab
+1aac
+
+#367500
+0aab
+0aac
+
+#370000
+1aab
+1aac
+
+#372500
+0aab
+0aac
+
+#375000
+1aaa
+1aab
+1aac
+b1111101011 aad
+1aag
+b1111101110 aao
+1aar
+b1111110001 aaz
+1abc
+b1111110100 abk
+1abn
+b1111110111 abv
+1aby
+b1111111010 acg
+1acj
+b1111111101 acr
+1acu
+b10000000000 adc
+1adf
+b10000000011 adn
+1adq
+b10000000110 ady
+1aeb
+b10000001001 aej
+1aem
+b10000001100 aeu
+1aex
+b10000001111 aff
+1afi
+b10000010010 afq
+1aft
+b10000010101 agb
+1age
+b10000011000 agm
+1agp
+
+#377500
+0aab
+0aac
+
+#380000
+1aab
+1aac
+
+#382500
+0aab
+0aac
+
+#385000
+1aab
+1aac
+b1111101110 aai
+1aal
+b1111101011 aat
+1aaw
+b1111110100 abe
+1abh
+b1111110001 abp
+1abs
+b1111111010 aca
+1acd
+b1111110111 acl
+1aco
+b10000000000 acw
+1acz
+b1111111101 adh
+1adk
+b10000000110 ads
+1adv
+b10000000011 aed
+1aeg
+b10000001100 aeo
+1aer
+b10000001001 aez
+1afc
+b10000010010 afk
+1afn
+b10000001111 afv
+1afy
+b10000011000 agg
+1agj
+b10000010101 agr
+1agu
+
+#387500
+0aab
+0aac
+
+#390000
+1aab
+1aac
+
+#392500
+0aab
+0aac
+
+#395000
+1aab
+1aac
+
+#397500
+0aab
+0aac
+
+#400000
+1aab
+1aac
+
+#402500
+0aab
+0aac
+
+#405000
+1aab
+1aac
+
+#407500
+0aab
+0aac
+
+#410000
+1aab
+1aac
+
+#412500
+0aab
+0aac
+
+#415000
+1aab
+1aac
+
+#417500
+0aab
+0aac
+
+#420000
+1aab
+1aac
+
+#422500
+0aab
+0aac
+
+#425000
+1aab
+1aac
+
+#427500
+0aab
+0aac
+
+#430000
+1aab
+1aac
+
+#432500
+0aab
+0aac
+
+#435000
+1aab
+1aac
+
+#437500
+0aaa
+0aab
+0aac
+
+#440000
+1aab
+1aac
+
+#442500
+0aab
+0aac
+
+#445000
+1aab
+1aac
+
+#447500
+0aab
+0aac
+
+#450000
+1aab
+1aac
+
+#452500
+0aab
+0aac
+
+#455000
+1aab
+1aac
+
+#457500
+0aab
+0aac
+
+#460000
+1aab
+1aac
+
+#462500
+0aab
+0aac
+
+#465000
+1aab
+1aac
+
+#467500
+0aab
+0aac
+
+#470000
+1aab
+1aac
+
+#472500
+0aab
+0aac
+
+#475000
+1aab
+1aac
+
+#477500
+0aab
+0aac
+
+#480000
+1aab
+1aac
+
+#482500
+0aab
+0aac
+
+#485000
+1aab
+1aac
+
+#487500
+0aab
+0aac
+
+#490000
+1aab
+1aac
+
+#492500
+0aab
+0aac
+
+#495000
+1aab
+1aac
+
+#497500
+0aab
+0aac
+
+#500000
+1aaa
+1aab
+1aac
+b1111101100 aad
+0aag
+b1111110000 aao
+0aar
+b1111110100 aaz
+0abc
+b1111111000 abk
+0abn
+b1111111100 abv
+0aby
+b10000000000 acg
+0acj
+b10000000100 acr
+0acu
+b10000001000 adc
+0adf
+b10000001100 adn
+0adq
+b10000010000 ady
+0aeb
+b10000010100 aej
+0aem
+b10000011000 aeu
+0aex
+b10000011100 aff
+0afi
+b10000100000 afq
+0aft
+b10000100100 agb
+0age
+b10000101000 agm
+0agp
+
+#502500
+0aab
+0aac
+
+#505000
+1aab
+1aac
+
+#507500
+0aab
+0aac
+
+#510000
+1aab
+1aac
+b1111110000 aai
+0aal
+b1111101100 aat
+0aaw
+b1111111000 abe
+0abh
+b1111110100 abp
+0abs
+b10000000000 aca
+0acd
+b1111111100 acl
+0aco
+b10000001000 acw
+0acz
+b10000000100 adh
+0adk
+b10000010000 ads
+0adv
+b10000001100 aed
+0aeg
+b10000011000 aeo
+0aer
+b10000010100 aez
+0afc
+b10000100000 afk
+0afn
+b10000011100 afv
+0afy
+b10000101000 agg
+0agj
+b10000100100 agr
+0agu
+
+#512500
+0aab
+0aac
+
+#515000
+1aab
+1aac
+
+#517500
+0aab
+0aac
+
+#520000
+1aab
+1aac
+
+#522500
+0aab
+0aac
+
+#525000
+1aab
+1aac
+
+#527500
+0aab
+0aac
+
+#530000
+1aab
+1aac
+
+#532500
+0aab
+0aac
+
+#535000
+1aab
+1aac
+
+#537500
+0aab
+0aac
+
+#540000
+1aab
+1aac
+
+#542500
+0aab
+0aac
+
+#545000
+1aab
+1aac
+
+#547500
+0aab
+0aac
+
+#550000
+1aab
+1aac
+
+#552500
+0aab
+0aac
+
+#555000
+1aab
+1aac
+
+#557500
+0aab
+0aac
+
+#560000
+1aab
+1aac
+
+#562500
+0aaa
+0aab
+0aac
+
+#565000
+1aab
+1aac
+
+#567500
+0aab
+0aac
+
+#570000
+1aab
+1aac
+
+#572500
+0aab
+0aac
+
+#575000
+1aab
+1aac
+
+#577500
+0aab
+0aac
+
+#580000
+1aab
+1aac
+
+#582500
+0aab
+0aac
+
+#585000
+1aab
+1aac
+
+#587500
+0aab
+0aac
+
+#590000
+1aab
+1aac
+
+#592500
+0aab
+0aac
+
+#595000
+1aab
+1aac
+
+#597500
+0aab
+0aac
+
+#600000
+1aab
+1aac
+
+#602500
+0aab
+0aac
+
+#605000
+1aab
+1aac
+
+#607500
+0aab
+0aac
+
+#610000
+1aab
+1aac
+
+#612500
+0aab
+0aac
+
+#615000
+1aab
+1aac
+
+#617500
+0aab
+0aac
+
+#620000
+1aab
+1aac
+
+#622500
+0aab
+0aac
+
+#625000
+1aaa
+1aab
+1aac
+b1111101101 aad
+1aag
+1aah
+b1111110010 aao
+1aar
+1aas
+b1111110111 aaz
+1abc
+1abd
+b1111111100 abk
+1abn
+1abo
+b10000000001 abv
+1aby
+1abz
+b10000000110 acg
+1acj
+1ack
+b10000001011 acr
+1acu
+1acv
+b10000010000 adc
+1adf
+1adg
+b10000010101 adn
+1adq
+1adr
+b10000011010 ady
+1aeb
+1aec
+b10000011111 aej
+1aem
+1aen
+b10000100100 aeu
+1aex
+1aey
+b10000101001 aff
+1afi
+1afj
+b10000101110 afq
+1aft
+1afu
+b10000110011 agb
+1age
+1agf
+b10000111000 agm
+1agp
+1agq
+
+#627500
+0aab
+0aac
+
+#630000
+1aab
+1aac
+
+#632500
+0aab
+0aac
+
+#635000
+1aab
+1aac
+b1111110010 aai
+1aal
+1aam
+b1111101101 aat
+1aaw
+1aax
+b1111111100 abe
+1abh
+1abi
+b1111110111 abp
+1abs
+1abt
+b10000000110 aca
+1acd
+1ace
+b10000000001 acl
+1aco
+1acp
+b10000010000 acw
+1acz
+1ada
+b10000001011 adh
+1adk
+1adl
+b10000011010 ads
+1adv
+1adw
+b10000010101 aed
+1aeg
+1aeh
+b10000100100 aeo
+1aer
+1aes
+b10000011111 aez
+1afc
+1afd
+b10000101110 afk
+1afn
+1afo
+b10000101001 afv
+1afy
+1afz
+b10000111000 agg
+1agj
+1agk
+b10000110011 agr
+1agu
+1agv
+
+#637500
+0aab
+0aac
+
+#640000
+1aab
+1aac
+
+#642500
+0aab
+0aac
+
+#645000
+1aab
+1aac
+
+#647500
+0aab
+0aac
+
+#650000
+1aab
+1aac
+
+#652500
+0aab
+0aac
+
+#655000
+1aab
+1aac
+
+#657500
+0aab
+0aac
+
+#660000
+1aab
+1aac
+
+#662500
+0aab
+0aac
+
+#665000
+1aab
+1aac
+
+#667500
+0aab
+0aac
+
+#670000
+1aab
+1aac
+
+#672500
+0aab
+0aac
+
+#675000
+1aab
+1aac
+
+#677500
+0aab
+0aac
+
+#680000
+1aab
+1aac
+
+#682500
+0aab
+0aac
+
+#685000
+1aab
+1aac
+
+#687500
+0aaa
+0aab
+0aac
+
+#690000
+1aab
+1aac
+
+#692500
+0aab
+0aac
+
+#695000
+1aab
+1aac
+
+#697500
+0aab
+0aac
+
+#700000
+1aab
+1aac
+
+#702500
+0aab
+0aac
+
+#705000
+1aab
+1aac
+
+#707500
+0aab
+0aac
+
+#710000
+1aab
+1aac
+
+#712500
+0aab
+0aac
+
+#715000
+1aab
+1aac
+
+#717500
+0aab
+0aac
+
+#720000
+1aab
+1aac
+
+#722500
+0aab
+0aac
+
+#725000
+1aab
+1aac
+
+#727500
+0aab
+0aac
+
+#730000
+1aab
+1aac
+
+#732500
+0aab
+0aac
+
+#735000
+1aab
+1aac
+
+#737500
+0aab
+0aac
+
+#740000
+1aab
+1aac
+
+#742500
+0aab
+0aac
+
+#745000
+1aab
+1aac
+
+#747500
+0aab
+0aac
+
+#750000
+1aaa
+1aab
+1aac
+b1111101110 aad
+0aag
+0aah
+b1111110100 aao
+0aar
+0aas
+b1111111010 aaz
+0abc
+0abd
+b10000000000 abk
+0abn
+0abo
+b10000000110 abv
+0aby
+0abz
+b10000001100 acg
+0acj
+0ack
+b10000010010 acr
+0acu
+0acv
+b10000011000 adc
+0adf
+0adg
+b10000011110 adn
+0adq
+0adr
+b10000100100 ady
+0aeb
+0aec
+b10000101010 aej
+0aem
+0aen
+b10000110000 aeu
+0aex
+0aey
+b10000110110 aff
+0afi
+0afj
+b10000111100 afq
+0aft
+0afu
+b10001000010 agb
+0age
+0agf
+b10001001000 agm
+0agp
+0agq
+
+#752500
+0aab
+0aac
+
+#755000
+1aab
+1aac
+
+#757500
+0aab
+0aac
+
+#760000
+1aab
+1aac
+b1111110100 aai
+0aal
+0aam
+b1111101110 aat
+0aaw
+0aax
+b10000000000 abe
+0abh
+0abi
+b1111111010 abp
+0abs
+0abt
+b10000001100 aca
+0acd
+0ace
+b10000000110 acl
+0aco
+0acp
+b10000011000 acw
+0acz
+0ada
+b10000010010 adh
+0adk
+0adl
+b10000100100 ads
+0adv
+0adw
+b10000011110 aed
+0aeg
+0aeh
+b10000110000 aeo
+0aer
+0aes
+b10000101010 aez
+0afc
+0afd
+b10000111100 afk
+0afn
+0afo
+b10000110110 afv
+0afy
+0afz
+b10001001000 agg
+0agj
+0agk
+b10001000010 agr
+0agu
+0agv
+
+#762500
+0aab
+0aac
+
+#765000
+1aab
+1aac
+
+#767500
+0aab
+0aac
+
+#770000
+1aab
+1aac
+
+#772500
+0aab
+0aac
+
+#775000
+1aab
+1aac
+
+#777500
+0aab
+0aac
+
+#780000
+1aab
+1aac
+
+#782500
+0aab
+0aac
+
+#785000
+1aab
+1aac
+
+#787500
+0aab
+0aac
+
+#790000
+1aab
+1aac
+
+#792500
+0aab
+0aac
+
+#795000
+1aab
+1aac
+
+#797500
+0aab
+0aac
+
+#800000
+1aab
+1aac
+
+#802500
+0aab
+0aac
+
+#805000
+1aab
+1aac
+
+#807500
+0aab
+0aac
+
+#810000
+1aab
+1aac
+
+#812500
+0aaa
+0aab
+0aac
+
+#815000
+1aab
+1aac
+
+#817500
+0aab
+0aac
+
+#820000
+1aab
+1aac
+
+#822500
+0aab
+0aac
+
+#825000
+1aab
+1aac
+
+#827500
+0aab
+0aac
+
+#830000
+1aab
+1aac
+
+#832500
+0aab
+0aac
+
+#835000
+1aab
+1aac
+
+#837500
+0aab
+0aac
+
+#840000
+1aab
+1aac
+
+#842500
+0aab
+0aac
+
+#845000
+1aab
+1aac
+
+#847500
+0aab
+0aac
+
+#850000
+1aab
+1aac
+
+#852500
+0aab
+0aac
+
+#855000
+1aab
+1aac
+
+#857500
+0aab
+0aac
+
+#860000
+1aab
+1aac
+
+#862500
+0aab
+0aac
+
+#865000
+1aab
+1aac
+
+#867500
+0aab
+0aac
+
+#870000
+1aab
+1aac
+
+#872500
+0aab
+0aac
+
+#875000
+1aaa
+1aab
+1aac
+b1111101111 aad
+1aag
+b1111110110 aao
+1aar
+b1111111101 aaz
+1abc
+b10000000100 abk
+1abn
+b10000001011 abv
+1aby
+b10000010010 acg
+1acj
+b10000011001 acr
+1acu
+b10000100000 adc
+1adf
+b10000100111 adn
+1adq
+b10000101110 ady
+1aeb
+b10000110101 aej
+1aem
+b10000111100 aeu
+1aex
+b10001000011 aff
+1afi
+b10001001010 afq
+1aft
+b10001010001 agb
+1age
+b10001011000 agm
+1agp
+
+#877500
+0aab
+0aac
+
+#880000
+1aab
+1aac
+
+#882500
+0aab
+0aac
+
+#885000
+1aab
+1aac
+b1111110110 aai
+1aal
+b1111101111 aat
+1aaw
+b10000000100 abe
+1abh
+b1111111101 abp
+1abs
+b10000010010 aca
+1acd
+b10000001011 acl
+1aco
+b10000100000 acw
+1acz
+b10000011001 adh
+1adk
+b10000101110 ads
+1adv
+b10000100111 aed
+1aeg
+b10000111100 aeo
+1aer
+b10000110101 aez
+1afc
+b10001001010 afk
+1afn
+b10001000011 afv
+1afy
+b10001011000 agg
+1agj
+b10001010001 agr
+1agu
+
+#887500
+0aab
+0aac
+
+#890000
+1aab
+1aac
+
+#892500
+0aab
+0aac
+
+#895000
+1aab
+1aac
+
+#897500
+0aab
+0aac
+
+#900000
+1aab
+1aac
+
+#902500
+0aab
+0aac
+
+#905000
+1aab
+1aac
+
+#907500
+0aab
+0aac
+
+#910000
+1aab
+1aac
+
+#912500
+0aab
+0aac
+
+#915000
+1aab
+1aac
+
+#917500
+0aab
+0aac
+
+#920000
+1aab
+1aac
+
+#922500
+0aab
+0aac
+
+#925000
+1aab
+1aac
+
+#927500
+0aab
+0aac
+
+#930000
+1aab
+1aac
+
+#932500
+0aab
+0aac
+
+#935000
+1aab
+1aac
+
+#937500
+0aaa
+0aab
+0aac
+
+#940000
+1aab
+1aac
+
+#942500
+0aab
+0aac
+
+#945000
+1aab
+1aac
+
+#947500
+0aab
+0aac
+
+#950000
+1aab
+1aac
+
+#952500
+0aab
+0aac
+
+#955000
+1aab
+1aac
+
+#957500
+0aab
+0aac
+
+#960000
+1aab
+1aac
+
+#962500
+0aab
+0aac
+
+#965000
+1aab
+1aac
+
+#967500
+0aab
+0aac
+
+#970000
+1aab
+1aac
+
+#972500
+0aab
+0aac
+
+#975000
+1aab
+1aac
+
+#977500
+0aab
+0aac
+
+#980000
+1aab
+1aac
+
+#982500
+0aab
+0aac
+
+#985000
+1aab
+1aac
+
+#987500
+0aab
+0aac
+
+#990000
+1aab
+1aac
+
+#992500
+0aab
+0aac
+
+#995000
+1aab
+1aac
+
+#997500
+0aab
+0aac
+
+#1000000
+1aaa
+1aab
+1aac
+b1111110000 aad
+0aag
+b1111111000 aao
+0aar
+b10000000000 aaz
+0abc
+b10000001000 abk
+0abn
+b10000010000 abv
+0aby
+b10000011000 acg
+0acj
+b10000100000 acr
+0acu
+b10000101000 adc
+0adf
+b10000110000 adn
+0adq
+b10000111000 ady
+0aeb
+b10001000000 aej
+0aem
+b10001001000 aeu
+0aex
+b10001010000 aff
+0afi
+b10001011000 afq
+0aft
+b10001100000 agb
+0age
+b10001101000 agm
+0agp
+
+#1002500
+0aab
+0aac
+
+#1005000
+1aab
+1aac
+
+#1007500
+0aab
+0aac
+
+#1010000
+1aab
+1aac
+b1111111000 aai
+0aal
+b1111110000 aat
+0aaw
+b10000001000 abe
+0abh
+b10000000000 abp
+0abs
+b10000011000 aca
+0acd
+b10000010000 acl
+0aco
+b10000101000 acw
+0acz
+b10000100000 adh
+0adk
+b10000111000 ads
+0adv
+b10000110000 aed
+0aeg
+b10001001000 aeo
+0aer
+b10001000000 aez
+0afc
+b10001011000 afk
+0afn
+b10001010000 afv
+0afy
+b10001101000 agg
+0agj
+b10001100000 agr
+0agu
+
+#1012500
+0aab
+0aac
+
+#1015000
+1aab
+1aac
+
+#1017500
+0aab
+0aac
+
+#1020000
+1aab
+1aac
+
+#1022500
+0aab
+0aac
+
+#1025000
+1aab
+1aac
+
+#1027500
+0aab
+0aac
+
+#1030000
+1aab
+1aac
+
+#1032500
+0aab
+0aac
+
+#1035000
+1aab
+1aac
+
+#1037500
+0aab
+0aac
+
+#1040000
+1aab
+1aac
+
+#1042500
+0aab
+0aac
+
+#1045000
+1aab
+1aac
+
+#1047500
+0aab
+0aac
+
+#1050000
+1aab
+1aac
+
+#1052500
+0aab
+0aac
+
+#1055000
+1aab
+1aac
+
+#1057500
+0aab
+0aac
+
+#1060000
+1aab
+1aac
+
+#1062500
+0aaa
+0aab
+0aac
+
+#1065000
+1aab
+1aac
+
+#1067500
+0aab
+0aac
+
+#1070000
+1aab
+1aac
+
+#1072500
+0aab
+0aac
+
+#1075000
+1aab
+1aac
+
+#1077500
+0aab
+0aac
+
+#1080000
+1aab
+1aac
+
+#1082500
+0aab
+0aac
+
+#1085000
+1aab
+1aac
+
+#1087500
+0aab
+0aac
+
+#1090000
+1aab
+1aac
+
+#1092500
+0aab
+0aac
+
+#1095000
+1aab
+1aac
+
+#1097500
+0aab
+0aac
+
+#1100000
+1aab
+1aac
+
+#1102500
+0aab
+0aac
+
+#1105000
+1aab
+1aac
+
+#1107500
+0aab
+0aac
+
+#1110000
+1aab
+1aac
+
+#1112500
+0aab
+0aac
+
+#1115000
+1aab
+1aac
+
+#1117500
+0aab
+0aac
+
+#1120000
+1aab
+1aac
+
+#1122500
+0aab
+0aac
+
+#1125000
+1aaa
+1aab
+1aac
+b1111110001 aad
+1aag
+b1111111010 aao
+1aar
+b10000000011 aaz
+1abc
+b10000001100 abk
+1abn
+b10000010101 abv
+1aby
+b10000011110 acg
+1acj
+b10000100111 acr
+1acu
+b10000110000 adc
+1adf
+b10000111001 adn
+1adq
+b10001000010 ady
+1aeb
+b10001001011 aej
+1aem
+b10001010100 aeu
+1aex
+b10001011101 aff
+1afi
+b10001100110 afq
+1aft
+b10001101111 agb
+1age
+b10001111000 agm
+1agp
+
+#1127500
+0aab
+0aac
+
+#1130000
+1aab
+1aac
+
+#1132500
+0aab
+0aac
+
+#1135000
+1aab
+1aac
+b1111111010 aai
+1aal
+b1111110001 aat
+1aaw
+b10000001100 abe
+1abh
+b10000000011 abp
+1abs
+b10000011110 aca
+1acd
+b10000010101 acl
+1aco
+b10000110000 acw
+1acz
+b10000100111 adh
+1adk
+b10001000010 ads
+1adv
+b10000111001 aed
+1aeg
+b10001010100 aeo
+1aer
+b10001001011 aez
+1afc
+b10001100110 afk
+1afn
+b10001011101 afv
+1afy
+b10001111000 agg
+1agj
+b10001101111 agr
+1agu
+
+#1137500
+0aab
+0aac
+
+#1140000
+1aab
+1aac
+
+#1142500
+0aab
+0aac
+
+#1145000
+1aab
+1aac
+
+#1147500
+0aab
+0aac
+
+#1150000
+1aab
+1aac
+
+#1152500
+0aab
+0aac
+
+#1155000
+1aab
+1aac
+
+#1157500
+0aab
+0aac
+
+#1160000
+1aab
+1aac
+
+#1162500
+0aab
+0aac
+
+#1165000
+1aab
+1aac
+
+#1167500
+0aab
+0aac
+
+#1170000
+1aab
+1aac
+
+#1172500
+0aab
+0aac
+
+#1175000
+1aab
+1aac
+
+#1177500
+0aab
+0aac
+
+#1180000
+1aab
+1aac
+
+#1182500
+0aab
+0aac
+
+#1185000
+1aab
+1aac
+
+#1187500
+0aaa
+0aab
+0aac
+
+#1190000
+1aab
+1aac
+
+#1192500
+0aab
+0aac
+
+#1195000
+1aab
+1aac
+
+#1197500
+0aab
+0aac
+
+#1200000
+1aab
+1aac
+
+#1202500
+0aab
+0aac
+
+#1205000
+1aab
+1aac
+
+#1207500
+0aab
+0aac
+
+#1210000
+1aab
+1aac
+
+#1212500
+0aab
+0aac
+
+#1215000
+1aab
+1aac
+
+#1217500
+0aab
+0aac
+
+#1220000
+1aab
+1aac
+
+#1222500
+0aab
+0aac
+
+#1225000
+1aab
+1aac
+
+#1227500
+0aab
+0aac
+
+#1230000
+1aab
+1aac
+
+#1232500
+0aab
+0aac
+
+#1235000
+1aab
+1aac
+
+#1237500
+0aab
+0aac
+
+#1240000
+1aab
+1aac
+
+#1242500
+0aab
+0aac
+
+#1245000
+1aab
+1aac
+
+#1247500
+0aab
+0aac
+
+#1250000
+1aaa
+1aab
+1aac
+b1111110010 aad
+0aag
+1aah
+b1111111100 aao
+0aar
+1aas
+b10000000110 aaz
+0abc
+1abd
+b10000010000 abk
+0abn
+1abo
+b10000011010 abv
+0aby
+1abz
+b10000100100 acg
+0acj
+1ack
+b10000101110 acr
+0acu
+1acv
+b10000111000 adc
+0adf
+1adg
+b10001000010 adn
+0adq
+1adr
+b10001001100 ady
+0aeb
+1aec
+b10001010110 aej
+0aem
+1aen
+b10001100000 aeu
+0aex
+1aey
+b10001101010 aff
+0afi
+1afj
+b10001110100 afq
+0aft
+1afu
+b10001111110 agb
+0age
+1agf
+b10010001000 agm
+0agp
+1agq
+
+#1252500
+0aab
+0aac
+
+#1255000
+1aab
+1aac
+
+#1257500
+0aab
+0aac
+
+#1260000
+1aab
+1aac
+b1111111100 aai
+0aal
+1aam
+b1111110010 aat
+0aaw
+1aax
+b10000010000 abe
+0abh
+1abi
+b10000000110 abp
+0abs
+1abt
+b10000100100 aca
+0acd
+1ace
+b10000011010 acl
+0aco
+1acp
+b10000111000 acw
+0acz
+1ada
+b10000101110 adh
+0adk
+1adl
+b10001001100 ads
+0adv
+1adw
+b10001000010 aed
+0aeg
+1aeh
+b10001100000 aeo
+0aer
+1aes
+b10001010110 aez
+0afc
+1afd
+b10001110100 afk
+0afn
+1afo
+b10001101010 afv
+0afy
+1afz
+b10010001000 agg
+0agj
+1agk
+b10001111110 agr
+0agu
+1agv
+
+#1262500
+0aab
+0aac
+
+#1265000
+1aab
+1aac
+
+#1267500
+0aab
+0aac
+
+#1270000
+1aab
+1aac
+
+#1272500
+0aab
+0aac
+
+#1275000
+1aab
+1aac
+
+#1277500
+0aab
+0aac
+
+#1280000
+1aab
+1aac
+
+#1282500
+0aab
+0aac
+
+#1285000
+1aab
+1aac
+
+#1287500
+0aab
+0aac
+
+#1290000
+1aab
+1aac
+
+#1292500
+0aab
+0aac
+
+#1295000
+1aab
+1aac
+
+#1297500
+0aab
+0aac
+
+#1300000
+1aab
+1aac
+
+#1302500
+0aab
+0aac
+
+#1305000
+1aab
+1aac
+
+#1307500
+0aab
+0aac
+
+#1310000
+1aab
+1aac
+
+#1312500
+0aaa
+0aab
+0aac
+
+#1315000
+1aab
+1aac
+
+#1317500
+0aab
+0aac
+
+#1320000
+1aab
+1aac
+
+#1322500
+0aab
+0aac
+
+#1325000
+1aab
+1aac
+
+#1327500
+0aab
+0aac
+
+#1330000
+1aab
+1aac
+
+#1332500
+0aab
+0aac
+
+#1335000
+1aab
+1aac
+
+#1337500
+0aab
+0aac
+
+#1340000
+1aab
+1aac
+
+#1342500
+0aab
+0aac
+
+#1345000
+1aab
+1aac
+
+#1347500
+0aab
+0aac
+
+#1350000
+1aab
+1aac
+
+#1352500
+0aab
+0aac
+
+#1355000
+1aab
+1aac
+
+#1357500
+0aab
+0aac
+
+#1360000
+1aab
+1aac
+
+#1362500
+0aab
+0aac
+
+#1365000
+1aab
+1aac
+
+#1367500
+0aab
+0aac
+
+#1370000
+1aab
+1aac
+
+#1372500
+0aab
+0aac
+
+#1375000
+1aaa
+1aab
+1aac
+b1111110011 aad
+1aag
+0aah
+b1111111110 aao
+1aar
+0aas
+b10000001001 aaz
+1abc
+0abd
+b10000010100 abk
+1abn
+0abo
+b10000011111 abv
+1aby
+0abz
+b10000101010 acg
+1acj
+0ack
+b10000110101 acr
+1acu
+0acv
+b10001000000 adc
+1adf
+0adg
+b10001001011 adn
+1adq
+0adr
+b10001010110 ady
+1aeb
+0aec
+b10001100001 aej
+1aem
+0aen
+b10001101100 aeu
+1aex
+0aey
+b10001110111 aff
+1afi
+0afj
+b10010000010 afq
+1aft
+0afu
+b10010001101 agb
+1age
+0agf
+b10010011000 agm
+1agp
+0agq
+
+#1377500
+0aab
+0aac
+
+#1380000
+1aab
+1aac
+
+#1382500
+0aab
+0aac
+
+#1385000
+1aab
+1aac
+b1111111110 aai
+1aal
+0aam
+b1111110011 aat
+1aaw
+0aax
+b10000010100 abe
+1abh
+0abi
+b10000001001 abp
+1abs
+0abt
+b10000101010 aca
+1acd
+0ace
+b10000011111 acl
+1aco
+0acp
+b10001000000 acw
+1acz
+0ada
+b10000110101 adh
+1adk
+0adl
+b10001010110 ads
+1adv
+0adw
+b10001001011 aed
+1aeg
+0aeh
+b10001101100 aeo
+1aer
+0aes
+b10001100001 aez
+1afc
+0afd
+b10010000010 afk
+1afn
+0afo
+b10001110111 afv
+1afy
+0afz
+b10010011000 agg
+1agj
+0agk
+b10010001101 agr
+1agu
+0agv
+
+#1387500
+0aab
+0aac
+
+#1390000
+1aab
+1aac
+
+#1392500
+0aab
+0aac
+
+#1395000
+1aab
+1aac
+
+#1397500
+0aab
+0aac
+
+#1400000
+1aab
+1aac
+
+#1402500
+0aab
+0aac
+
+#1405000
+1aab
+1aac
+
+#1407500
+0aab
+0aac
+
+#1410000
+1aab
+1aac
+
+#1412500
+0aab
+0aac
+
+#1415000
+1aab
+1aac
+
+#1417500
+0aab
+0aac
+
+#1420000
+1aab
+1aac
+
+#1422500
+0aab
+0aac
+
+#1425000
+1aab
+1aac
+
+#1427500
+0aab
+0aac
+
+#1430000
+1aab
+1aac
+
+#1432500
+0aab
+0aac
+
+#1435000
+1aab
+1aac
+
+#1437500
+0aaa
+0aab
+0aac
+
+#1440000
+1aab
+1aac
+
+#1442500
+0aab
+0aac
+
+#1445000
+1aab
+1aac
+
+#1447500
+0aab
+0aac
+
+#1450000
+1aab
+1aac
+
+#1452500
+0aab
+0aac
+
+#1455000
+1aab
+1aac
+
+#1457500
+0aab
+0aac
+
+#1460000
+1aab
+1aac
+
+#1462500
+0aab
+0aac
+
+#1465000
+1aab
+1aac
+
+#1467500
+0aab
+0aac
+
+#1470000
+1aab
+1aac
+
+#1472500
+0aab
+0aac
+
+#1475000
+1aab
+1aac
+
+#1477500
+0aab
+0aac
+
+#1480000
+1aab
+1aac
+
+#1482500
+0aab
+0aac
+
+#1485000
+1aab
+1aac
+
+#1487500
+0aab
+0aac
+
+#1490000
+1aab
+1aac
+
+#1492500
+0aab
+0aac
+
+#1495000
+1aab
+1aac
+
+#1497500
+0aab
+0aac
+
+#1500000
+1aaa
+1aab
+1aac
+b1111110100 aad
+0aag
+b10000000000 aao
+0aar
+b10000001100 aaz
+0abc
+b10000011000 abk
+0abn
+b10000100100 abv
+0aby
+b10000110000 acg
+0acj
+b10000111100 acr
+0acu
+b10001001000 adc
+0adf
+b10001010100 adn
+0adq
+b10001100000 ady
+0aeb
+b10001101100 aej
+0aem
+b10001111000 aeu
+0aex
+b10010000100 aff
+0afi
+b10010010000 afq
+0aft
+b10010011100 agb
+0age
+b10010101000 agm
+0agp
+
+#1502500
+0aab
+0aac
+
+#1505000
+1aab
+1aac
+
+#1507500
+0aab
+0aac
+
+#1510000
+1aab
+1aac
+b10000000000 aai
+0aal
+b1111110100 aat
+0aaw
+b10000011000 abe
+0abh
+b10000001100 abp
+0abs
+b10000110000 aca
+0acd
+b10000100100 acl
+0aco
+b10001001000 acw
+0acz
+b10000111100 adh
+0adk
+b10001100000 ads
+0adv
+b10001010100 aed
+0aeg
+b10001111000 aeo
+0aer
+b10001101100 aez
+0afc
+b10010010000 afk
+0afn
+b10010000100 afv
+0afy
+b10010101000 agg
+0agj
+b10010011100 agr
+0agu
+
+#1512500
+0aab
+0aac
+
+#1515000
+1aab
+1aac
+
+#1517500
+0aab
+0aac
+
+#1520000
+1aab
+1aac
+
+#1522500
+0aab
+0aac
+
+#1525000
+1aab
+1aac
+
+#1527500
+0aab
+0aac
+
+#1530000
+1aab
+1aac
+
+#1532500
+0aab
+0aac
+
+#1535000
+1aab
+1aac
+
+#1537500
+0aab
+0aac
+
+#1540000
+1aab
+1aac
+
+#1542500
+0aab
+0aac
+
+#1545000
+1aab
+1aac
+
+#1547500
+0aab
+0aac
+
+#1550000
+1aab
+1aac
+
+#1552500
+0aab
+0aac
+
+#1555000
+1aab
+1aac
+
+#1557500
+0aab
+0aac
+
+#1560000
+1aab
+1aac
+
+#1562500
+0aaa
+0aab
+0aac
+
+#1565000
+1aab
+1aac
+
+#1567500
+0aab
+0aac
+
+#1570000
+1aab
+1aac
+
+#1572500
+0aab
+0aac
+
+#1575000
+1aab
+1aac
+
+#1577500
+0aab
+0aac
+
+#1580000
+1aab
+1aac
+
+#1582500
+0aab
+0aac
+
+#1585000
+1aab
+1aac
+
+#1587500
+0aab
+0aac
+
+#1590000
+1aab
+1aac
+
+#1592500
+0aab
+0aac
+
+#1595000
+1aab
+1aac
+
+#1597500
+0aab
+0aac
+
+#1600000
+1aab
+1aac
+
+#1602500
+0aab
+0aac
+
+#1605000
+1aab
+1aac
+
+#1607500
+0aab
+0aac
+
+#1610000
+1aab
+1aac
+
+#1612500
+0aab
+0aac
+
+#1615000
+1aab
+1aac
+
+#1617500
+0aab
+0aac
+
+#1620000
+1aab
+1aac
+
+#1622500
+0aab
+0aac
+
+#1625000
+1aaa
+1aab
+1aac
+b1111110101 aad
+1aag
+b10000000010 aao
+1aar
+b10000001111 aaz
+1abc
+b10000011100 abk
+1abn
+b10000101001 abv
+1aby
+b10000110110 acg
+1acj
+b10001000011 acr
+1acu
+b10001010000 adc
+1adf
+b10001011101 adn
+1adq
+b10001101010 ady
+1aeb
+b10001110111 aej
+1aem
+b10010000100 aeu
+1aex
+b10010010001 aff
+1afi
+b10010011110 afq
+1aft
+b10010101011 agb
+1age
+b10010111000 agm
+1agp
+
+#1627500
+0aab
+0aac
+
+#1630000
+1aab
+1aac
+
+#1632500
+0aab
+0aac
+
+#1635000
+1aab
+1aac
+b10000000010 aai
+1aal
+b1111110101 aat
+1aaw
+b10000011100 abe
+1abh
+b10000001111 abp
+1abs
+b10000110110 aca
+1acd
+b10000101001 acl
+1aco
+b10001010000 acw
+1acz
+b10001000011 adh
+1adk
+b10001101010 ads
+1adv
+b10001011101 aed
+1aeg
+b10010000100 aeo
+1aer
+b10001110111 aez
+1afc
+b10010011110 afk
+1afn
+b10010010001 afv
+1afy
+b10010111000 agg
+1agj
+b10010101011 agr
+1agu
+
+#1637500
+0aab
+0aac
+
+#1640000
+1aab
+1aac
+
+#1642500
+0aab
+0aac
+
+#1645000
+1aab
+1aac
+
+#1647500
+0aab
+0aac
+
+#1650000
+1aab
+1aac
+
+#1652500
+0aab
+0aac
+
+#1655000
+1aab
+1aac
+
+#1657500
+0aab
+0aac
+
+#1660000
+1aab
+1aac
+
+#1662500
+0aab
+0aac
+
+#1665000
+1aab
+1aac
+
+#1667500
+0aab
+0aac
+
+#1670000
+1aab
+1aac
+
+#1672500
+0aab
+0aac
+
+#1675000
+1aab
+1aac
+
+#1677500
+0aab
+0aac
+
+#1680000
+1aab
+1aac
+
+#1682500
+0aab
+0aac
+
+#1685000
+1aab
+1aac
+
+#1687500
+0aaa
+0aab
+0aac
+
+#1690000
+1aab
+1aac
+
+#1692500
+0aab
+0aac
+
+#1695000
+1aab
+1aac
+
+#1697500
+0aab
+0aac
+
+#1700000
+1aab
+1aac
+
+#1702500
+0aab
+0aac
+
+#1705000
+1aab
+1aac
+
+#1707500
+0aab
+0aac
+
+#1710000
+1aab
+1aac
+
+#1712500
+0aab
+0aac
+
+#1715000
+1aab
+1aac
+
+#1717500
+0aab
+0aac
+
+#1720000
+1aab
+1aac
+
+#1722500
+0aab
+0aac
+
+#1725000
+1aab
+1aac
+
+#1727500
+0aab
+0aac
+
+#1730000
+1aab
+1aac
+
+#1732500
+0aab
+0aac
+
+#1735000
+1aab
+1aac
+
+#1737500
+0aab
+0aac
+
+#1740000
+1aab
+1aac
+
+#1742500
+0aab
+0aac
+
+#1745000
+1aab
+1aac
+
+#1747500
+0aab
+0aac
+
+#1750000
+1aaa
+1aab
+1aac
+b1111110110 aad
+0aag
+b10000000100 aao
+0aar
+b10000010010 aaz
+0abc
+b10000100000 abk
+0abn
+b10000101110 abv
+0aby
+b10000111100 acg
+0acj
+b10001001010 acr
+0acu
+b10001011000 adc
+0adf
+b10001100110 adn
+0adq
+b10001110100 ady
+0aeb
+b10010000010 aej
+0aem
+b10010010000 aeu
+0aex
+b10010011110 aff
+0afi
+b10010101100 afq
+0aft
+b10010111010 agb
+0age
+b10011001000 agm
+0agp
+
+#1752500
+0aab
+0aac
+
+#1755000
+1aab
+1aac
+
+#1757500
+0aab
+0aac
+
+#1760000
+1aab
+1aac
+b10000000100 aai
+0aal
+b1111110110 aat
+0aaw
+b10000100000 abe
+0abh
+b10000010010 abp
+0abs
+b10000111100 aca
+0acd
+b10000101110 acl
+0aco
+b10001011000 acw
+0acz
+b10001001010 adh
+0adk
+b10001110100 ads
+0adv
+b10001100110 aed
+0aeg
+b10010010000 aeo
+0aer
+b10010000010 aez
+0afc
+b10010101100 afk
+0afn
+b10010011110 afv
+0afy
+b10011001000 agg
+0agj
+b10010111010 agr
+0agu
+
+#1762500
+0aab
+0aac
+
+#1765000
+1aab
+1aac
+
+#1767500
+0aab
+0aac
+
+#1770000
+1aab
+1aac
+
+#1772500
+0aab
+0aac
+
+#1775000
+1aab
+1aac
+
+#1777500
+0aab
+0aac
+
+#1780000
+1aab
+1aac
+
+#1782500
+0aab
+0aac
+
+#1785000
+1aab
+1aac
+
+#1787500
+0aab
+0aac
+
+#1790000
+1aab
+1aac
+
+#1792500
+0aab
+0aac
+
+#1795000
+1aab
+1aac
+
+#1797500
+0aab
+0aac
+
+#1800000
+1aab
+1aac
+
+#1802500
+0aab
+0aac
+
+#1805000
+1aab
+1aac
+
+#1807500
+0aab
+0aac
+
+#1810000
+1aab
+1aac
+
+#1812500
+0aaa
+0aab
+0aac
+
+#1815000
+1aab
+1aac
+
+#1817500
+0aab
+0aac
+
+#1820000
+1aab
+1aac
+
+#1822500
+0aab
+0aac
+
+#1825000
+1aab
+1aac
+
+#1827500
+0aab
+0aac
+
+#1830000
+1aab
+1aac
+
+#1832500
+0aab
+0aac
+
+#1835000
+1aab
+1aac
+
+#1837500
+0aab
+0aac
+
+#1840000
+1aab
+1aac
+
+#1842500
+0aab
+0aac
+
+#1845000
+1aab
+1aac
+
+#1847500
+0aab
+0aac
+
+#1850000
+1aab
+1aac
+
+#1852500
+0aab
+0aac
+
+#1855000
+1aab
+1aac
+
+#1857500
+0aab
+0aac
+
+#1860000
+1aab
+1aac
+
+#1862500
+0aab
+0aac
+
+#1865000
+1aab
+1aac
+
+#1867500
+0aab
+0aac
+
+#1870000
+1aab
+1aac
+
+#1872500
+0aab
+0aac
+
+#1875000
+1aaa
+1aab
+1aac
+b1111110111 aad
+1aag
+1aah
+b10000000110 aao
+1aar
+1aas
+b10000010101 aaz
+1abc
+1abd
+b10000100100 abk
+1abn
+1abo
+b10000110011 abv
+1aby
+1abz
+b10001000010 acg
+1acj
+1ack
+b10001010001 acr
+1acu
+1acv
+b10001100000 adc
+1adf
+1adg
+b10001101111 adn
+1adq
+1adr
+b10001111110 ady
+1aeb
+1aec
+b10010001101 aej
+1aem
+1aen
+b10010011100 aeu
+1aex
+1aey
+b10010101011 aff
+1afi
+1afj
+b10010111010 afq
+1aft
+1afu
+b10011001001 agb
+1age
+1agf
+b10011011000 agm
+1agp
+1agq
+
+#1877500
+0aab
+0aac
+
+#1880000
+1aab
+1aac
+
+#1882500
+0aab
+0aac
+
+#1885000
+1aab
+1aac
+b10000000110 aai
+1aal
+1aam
+b1111110111 aat
+1aaw
+1aax
+b10000100100 abe
+1abh
+1abi
+b10000010101 abp
+1abs
+1abt
+b10001000010 aca
+1acd
+1ace
+b10000110011 acl
+1aco
+1acp
+b10001100000 acw
+1acz
+1ada
+b10001010001 adh
+1adk
+1adl
+b10001111110 ads
+1adv
+1adw
+b10001101111 aed
+1aeg
+1aeh
+b10010011100 aeo
+1aer
+1aes
+b10010001101 aez
+1afc
+1afd
+b10010111010 afk
+1afn
+1afo
+b10010101011 afv
+1afy
+1afz
+b10011011000 agg
+1agj
+1agk
+b10011001001 agr
+1agu
+1agv
+
+#1887500
+0aab
+0aac
+
+#1890000
+1aab
+1aac
+
+#1892500
+0aab
+0aac
+
+#1895000
+1aab
+1aac
+
+#1897500
+0aab
+0aac
+
+#1900000
+1aab
+1aac
+
+#1902500
+0aab
+0aac
+
+#1905000
+1aab
+1aac
+
+#1907500
+0aab
+0aac
+
+#1910000
+1aab
+1aac
+
+#1912500
+0aab
+0aac
+
+#1915000
+1aab
+1aac
+
+#1917500
+0aab
+0aac
+
+#1920000
+1aab
+1aac
+
+#1922500
+0aab
+0aac
+
+#1925000
+1aab
+1aac
+
+#1927500
+0aab
+0aac
+
+#1930000
+1aab
+1aac
+
+#1932500
+0aab
+0aac
+
+#1935000
+1aab
+1aac
+
+#1937500
+0aaa
+0aab
+0aac
+
+#1940000
+1aab
+1aac
+
+#1942500
+0aab
+0aac
+
+#1945000
+1aab
+1aac
+
+#1947500
+0aab
+0aac
+
+#1950000
+1aab
+1aac
+
+#1952500
+0aab
+0aac
+
+#1955000
+1aab
+1aac
+
+#1957500
+0aab
+0aac
+
+#1960000
+1aab
+1aac
+
+#1962500
+0aab
+0aac
+
+#1965000
+1aab
+1aac
+
+#1967500
+0aab
+0aac
+
+#1970000
+1aab
+1aac
+
+#1972500
+0aab
+0aac
+
+#1975000
+1aab
+1aac
+
+#1977500
+0aab
+0aac
+
+#1980000
+1aab
+1aac
+
+#1982500
+0aab
+0aac
+
+#1985000
+1aab
+1aac
+
+#1987500
+0aab
+0aac
+
+#1990000
+1aab
+1aac
+
+#1992500
+0aab
+0aac
+
+#1995000
+1aab
+1aac
+
+#1997500
+0aab
+0aac
+
+#2000000
+1aaa
+1aab
+1aac
+b1111111000 aad
+0aag
+0aah
+b10000001000 aao
+0aar
+0aas
+b10000011000 aaz
+0abc
+0abd
+b10000101000 abk
+0abn
+0abo
+b10000111000 abv
+0aby
+0abz
+b10001001000 acg
+0acj
+0ack
+b10001011000 acr
+0acu
+0acv
+b10001101000 adc
+0adf
+0adg
+b10001111000 adn
+0adq
+0adr
+b10010001000 ady
+0aeb
+0aec
+b10010011000 aej
+0aem
+0aen
+b10010101000 aeu
+0aex
+0aey
+b10010111000 aff
+0afi
+0afj
+b10011001000 afq
+0aft
+0afu
+b10011011000 agb
+0age
+0agf
+b10011101000 agm
+0agp
+0agq
+
+#2002500
+0aab
+0aac
+
+#2005000
+1aab
+1aac
+
+#2007500
+0aab
+0aac
+
+#2010000
+1aab
+1aac
+b10000001000 aai
+0aal
+0aam
+b1111111000 aat
+0aaw
+0aax
+b10000101000 abe
+0abh
+0abi
+b10000011000 abp
+0abs
+0abt
+b10001001000 aca
+0acd
+0ace
+b10000111000 acl
+0aco
+0acp
+b10001101000 acw
+0acz
+0ada
+b10001011000 adh
+0adk
+0adl
+b10010001000 ads
+0adv
+0adw
+b10001111000 aed
+0aeg
+0aeh
+b10010101000 aeo
+0aer
+0aes
+b10010011000 aez
+0afc
+0afd
+b10011001000 afk
+0afn
+0afo
+b10010111000 afv
+0afy
+0afz
+b10011101000 agg
+0agj
+0agk
+b10011011000 agr
+0agu
+0agv
+
+#2012500
+0aab
+0aac
+
+#2015000
+1aab
+1aac
+
+#2017500
+0aab
+0aac
+
+#2020000
+1aab
+1aac
+
+#2022500
+0aab
+0aac
+
+#2025000
+1aab
+1aac
+
+#2027500
+0aab
+0aac
+
+#2030000
+1aab
+1aac
+
+#2032500
+0aab
+0aac
+
+#2035000
+1aab
+1aac
+
+#2037500
+0aab
+0aac
+
+#2040000
+1aab
+1aac
+
+#2042500
+0aab
+0aac
+
+#2045000
+1aab
+1aac
+
+#2047500
+0aab
+0aac
+
+#2050000
+1aab
+1aac
+
+#2052500
+0aab
+0aac
+
+#2055000
+1aab
+1aac
+
+#2057500
+0aab
+0aac
+
+#2060000
+1aab
+1aac
+
+#2062500
+0aaa
+0aab
+0aac
+
+#2065000
+1aab
+1aac
+
+#2067500
+0aab
+0aac
+
+#2070000
+1aab
+1aac
+
+#2072500
+0aab
+0aac
+
+#2075000
+1aab
+1aac
+
+#2077500
+0aab
+0aac
+
+#2080000
+1aab
+1aac
+
+#2082500
+0aab
+0aac
+
+#2085000
+1aab
+1aac
+
+#2087500
+0aab
+0aac
+
+#2090000
+1aab
+1aac
+
+#2092500
+0aab
+0aac
+
+#2095000
+1aab
+1aac
+
+#2097500
+0aab
+0aac
+
+#2100000
+1aab
+1aac
+
+#2102500
+0aab
+0aac
+
+#2105000
+1aab
+1aac
+
+#2107500
+0aab
+0aac
+
+#2110000
+1aab
+1aac
+
+#2112500
+0aab
+0aac
+
+#2115000
+1aab
+1aac
+
+#2117500
+0aab
+0aac
+
+#2120000
+1aab
+1aac
+
+#2122500
+0aab
+0aac
+
+#2125000
+1aaa
+1aab
+1aac
+b1111111001 aad
+1aag
+b10000001010 aao
+1aar
+b10000011011 aaz
+1abc
+b10000101100 abk
+1abn
+b10000111101 abv
+1aby
+b10001001110 acg
+1acj
+b10001011111 acr
+1acu
+b10001110000 adc
+1adf
+b10010000001 adn
+1adq
+b10010010010 ady
+1aeb
+b10010100011 aej
+1aem
+b10010110100 aeu
+1aex
+b10011000101 aff
+1afi
+b10011010110 afq
+1aft
+b10011100111 agb
+1age
+b10011111000 agm
+1agp
+
+#2127500
+0aab
+0aac
+
+#2130000
+1aab
+1aac
+
+#2132500
+0aab
+0aac
+
+#2135000
+1aab
+1aac
+b10000001010 aai
+1aal
+b1111111001 aat
+1aaw
+b10000101100 abe
+1abh
+b10000011011 abp
+1abs
+b10001001110 aca
+1acd
+b10000111101 acl
+1aco
+b10001110000 acw
+1acz
+b10001011111 adh
+1adk
+b10010010010 ads
+1adv
+b10010000001 aed
+1aeg
+b10010110100 aeo
+1aer
+b10010100011 aez
+1afc
+b10011010110 afk
+1afn
+b10011000101 afv
+1afy
+b10011111000 agg
+1agj
+b10011100111 agr
+1agu
+
+#2137500
+0aab
+0aac
+
+#2140000
+1aab
+1aac
+
+#2142500
+0aab
+0aac
+
+#2145000
+1aab
+1aac
+
+#2147500
+0aab
+0aac
+
+#2150000
+1aab
+1aac
+
+#2152500
+0aab
+0aac
+
+#2155000
+1aab
+1aac
+
+#2157500
+0aab
+0aac
+
+#2160000
+1aab
+1aac
+
+#2162500
+0aab
+0aac
+
+#2165000
+1aab
+1aac
+
+#2167500
+0aab
+0aac
+
+#2170000
+1aab
+1aac
+
+#2172500
+0aab
+0aac
+
+#2175000
+1aab
+1aac
+
+#2177500
+0aab
+0aac
+
+#2180000
+1aab
+1aac
+
+#2182500
+0aab
+0aac
+
+#2185000
+1aab
+1aac
+
+#2187500
+0aaa
+0aab
+0aac
+
+#2190000
+1aab
+1aac
+
+#2192500
+0aab
+0aac
+
+#2195000
+1aab
+1aac
+
+#2197500
+0aab
+0aac
+
+#2200000
+1aab
+1aac
+
+#2202500
+0aab
+0aac
+
+#2205000
+1aab
+1aac
+
+#2207500
+0aab
+0aac
+
+#2210000
+1aab
+1aac
+
+#2212500
+0aab
+0aac
+
+#2215000
+1aab
+1aac
+
+#2217500
+0aab
+0aac
+
+#2220000
+1aab
+1aac
+
+#2222500
+0aab
+0aac
+
+#2225000
+1aab
+1aac
+
+#2227500
+0aab
+0aac
+
+#2230000
+1aab
+1aac
+
+#2232500
+0aab
+0aac
+
+#2235000
+1aab
+1aac
+
+#2237500
+0aab
+0aac
+
+#2240000
+1aab
+1aac
+
+#2242500
+0aab
+0aac
+
+#2245000
+1aab
+1aac
+
+#2247500
+0aab
+0aac
+
+#2250000
+1aaa
+1aab
+1aac
+b1111111010 aad
+0aag
+b10000001100 aao
+0aar
+b10000011110 aaz
+0abc
+b10000110000 abk
+0abn
+b10001000010 abv
+0aby
+b10001010100 acg
+0acj
+b10001100110 acr
+0acu
+b10001111000 adc
+0adf
+b10010001010 adn
+0adq
+b10010011100 ady
+0aeb
+b10010101110 aej
+0aem
+b10011000000 aeu
+0aex
+b10011010010 aff
+0afi
+b10011100100 afq
+0aft
+b10011110110 agb
+0age
+b10100001000 agm
+0agp
+
+#2252500
+0aab
+0aac
+
+#2255000
+1aab
+1aac
+
+#2257500
+0aab
+0aac
+
+#2260000
+1aab
+1aac
+b10000001100 aai
+0aal
+b1111111010 aat
+0aaw
+b10000110000 abe
+0abh
+b10000011110 abp
+0abs
+b10001010100 aca
+0acd
+b10001000010 acl
+0aco
+b10001111000 acw
+0acz
+b10001100110 adh
+0adk
+b10010011100 ads
+0adv
+b10010001010 aed
+0aeg
+b10011000000 aeo
+0aer
+b10010101110 aez
+0afc
+b10011100100 afk
+0afn
+b10011010010 afv
+0afy
+b10100001000 agg
+0agj
+b10011110110 agr
+0agu
+
+#2262500
+0aab
+0aac
+
+#2265000
+1aab
+1aac
+
+#2267500
+0aab
+0aac
+
+#2270000
+1aab
+1aac
+
+#2272500
+0aab
+0aac
+
+#2275000
+1aab
+1aac
+
+#2277500
+0aab
+0aac
+
+#2280000
+1aab
+1aac
+
+#2282500
+0aab
+0aac
+
+#2285000
+1aab
+1aac
+
+#2287500
+0aab
+0aac
+
+#2290000
+1aab
+1aac
+
+#2292500
+0aab
+0aac
+
+#2295000
+1aab
+1aac
+
+#2297500
+0aab
+0aac
+
+#2300000
+1aab
+1aac
+
+#2302500
+0aab
+0aac
+
+#2305000
+1aab
+1aac
+
+#2307500
+0aab
+0aac
+
+#2310000
+1aab
+1aac
+
+#2312500
+0aaa
+0aab
+0aac
+
+#2315000
+1aab
+1aac
+
+#2317500
+0aab
+0aac
+
+#2320000
+1aab
+1aac
+
+#2322500
+0aab
+0aac
+
+#2325000
+1aab
+1aac
+
+#2327500
+0aab
+0aac
+
+#2330000
+1aab
+1aac
+
+#2332500
+0aab
+0aac
+
+#2335000
+1aab
+1aac
+
+#2337500
+0aab
+0aac
+
+#2340000
+1aab
+1aac
+
+#2342500
+0aab
+0aac
+
+#2345000
+1aab
+1aac
+
+#2347500
+0aab
+0aac
+
+#2350000
+1aab
+1aac
+
+#2352500
+0aab
+0aac
+
+#2355000
+1aab
+1aac
+
+#2357500
+0aab
+0aac
+
+#2360000
+1aab
+1aac
+
+#2362500
+0aab
+0aac
+
+#2365000
+1aab
+1aac
+
+#2367500
+0aab
+0aac
+
+#2370000
+1aab
+1aac
+
+#2372500
+0aab
+0aac
+
+#2375000
+1aaa
+1aab
+1aac
+b1111111011 aad
+1aag
+b10000001110 aao
+1aar
+b10000100001 aaz
+1abc
+b10000110100 abk
+1abn
+b10001000111 abv
+1aby
+b10001011010 acg
+1acj
+b10001101101 acr
+1acu
+b10010000000 adc
+1adf
+b10010010011 adn
+1adq
+b10010100110 ady
+1aeb
+b10010111001 aej
+1aem
+b10011001100 aeu
+1aex
+b10011011111 aff
+1afi
+b10011110010 afq
+1aft
+b10100000101 agb
+1age
+b10100011000 agm
+1agp
+
+#2377500
+0aab
+0aac
+
+#2380000
+1aab
+1aac
+
+#2382500
+0aab
+0aac
+
+#2385000
+1aab
+1aac
+b10000001110 aai
+1aal
+b1111111011 aat
+1aaw
+b10000110100 abe
+1abh
+b10000100001 abp
+1abs
+b10001011010 aca
+1acd
+b10001000111 acl
+1aco
+b10010000000 acw
+1acz
+b10001101101 adh
+1adk
+b10010100110 ads
+1adv
+b10010010011 aed
+1aeg
+b10011001100 aeo
+1aer
+b10010111001 aez
+1afc
+b10011110010 afk
+1afn
+b10011011111 afv
+1afy
+b10100011000 agg
+1agj
+b10100000101 agr
+1agu
+
+#2387500
+0aab
+0aac
+
+#2390000
+1aab
+1aac
+
+#2392500
+0aab
+0aac
+
+#2395000
+1aab
+1aac
+
+#2397500
+0aab
+0aac
+
+#2400000
+1aab
+1aac
+
+#2402500
+0aab
+0aac
+
+#2405000
+1aab
+1aac
+
+#2407500
+0aab
+0aac
+
+#2410000
+1aab
+1aac
+
+#2412500
+0aab
+0aac
+
+#2415000
+1aab
+1aac
+
+#2417500
+0aab
+0aac
+
+#2420000
+1aab
+1aac
+
+#2422500
+0aab
+0aac
+
+#2425000
+1aab
+1aac
+
+#2427500
+0aab
+0aac
+
+#2430000
+1aab
+1aac
+
+#2432500
+0aab
+0aac
+
+#2435000
+1aab
+1aac
+
+#2437500
+0aaa
+0aab
+0aac
+
+#2440000
+1aab
+1aac
+
+#2442500
+0aab
+0aac
+
+#2445000
+1aab
+1aac
+
+#2447500
+0aab
+0aac
+
+#2450000
+1aab
+1aac
+
+#2452500
+0aab
+0aac
+
+#2455000
+1aab
+1aac
+
+#2457500
+0aab
+0aac
+
+#2460000
+1aab
+1aac
+
+#2462500
+0aab
+0aac
+
+#2465000
+1aab
+1aac
+
+#2467500
+0aab
+0aac
+
+#2470000
+1aab
+1aac
+
+#2472500
+0aab
+0aac
+
+#2475000
+1aab
+1aac
+
+#2477500
+0aab
+0aac
+
+#2480000
+1aab
+1aac
+
+#2482500
+0aab
+0aac
+
+#2485000
+1aab
+1aac
+
+#2487500
+0aab
+0aac
+
+#2490000
+1aab
+1aac
+
+#2492500
+0aab
+0aac
+
+#2495000
+1aab
+1aac
+
+#2497500
+0aab
+0aac
+
+#2500000
+1aaa
+1aab
+1aac
+b1111111100 aad
+0aag
+1aah
+b10000010000 aao
+0aar
+1aas
+b10000100100 aaz
+0abc
+1abd
+b10000111000 abk
+0abn
+1abo
+b10001001100 abv
+0aby
+1abz
+b10001100000 acg
+0acj
+1ack
+b10001110100 acr
+0acu
+1acv
+b10010001000 adc
+0adf
+1adg
+b10010011100 adn
+0adq
+1adr
+b10010110000 ady
+0aeb
+1aec
+b10011000100 aej
+0aem
+1aen
+b10011011000 aeu
+0aex
+1aey
+b10011101100 aff
+0afi
+1afj
+b10100000000 afq
+0aft
+1afu
+b10100010100 agb
+0age
+1agf
+b10100101000 agm
+0agp
+1agq
+
+#2502500
+0aab
+0aac
+
+#2505000
+1aab
+1aac
+
+#2507500
+0aab
+0aac
+
+#2510000
+1aab
+1aac
+b10000010000 aai
+0aal
+1aam
+b1111111100 aat
+0aaw
+1aax
+b10000111000 abe
+0abh
+1abi
+b10000100100 abp
+0abs
+1abt
+b10001100000 aca
+0acd
+1ace
+b10001001100 acl
+0aco
+1acp
+b10010001000 acw
+0acz
+1ada
+b10001110100 adh
+0adk
+1adl
+b10010110000 ads
+0adv
+1adw
+b10010011100 aed
+0aeg
+1aeh
+b10011011000 aeo
+0aer
+1aes
+b10011000100 aez
+0afc
+1afd
+b10100000000 afk
+0afn
+1afo
+b10011101100 afv
+0afy
+1afz
+b10100101000 agg
+0agj
+1agk
+b10100010100 agr
+0agu
+1agv
+
+#2512500
+0aab
+0aac
+
+#2515000
+1aab
+1aac
+
+#2517500
+0aab
+0aac
+
+#2520000
+1aab
+1aac
+
+#2522500
+0aab
+0aac
+
+#2525000
+1aab
+1aac
+
+#2527500
+0aab
+0aac
+
+#2530000
+1aab
+1aac
+
+#2532500
+0aab
+0aac
+
+#2535000
+1aab
+1aac
+
+#2537500
+0aab
+0aac
+
+#2540000
+1aab
+1aac
+
+#2542500
+0aab
+0aac
+
+#2545000
+1aab
+1aac
+
+#2547500
+0aab
+0aac
+
+#2550000
+1aab
+1aac
+
+#2552500
+0aab
+0aac
+
+#2555000
+1aab
+1aac
+
+#2557500
+0aab
+0aac
+
+#2560000
+1aab
+1aac
+
+#2562500
+0aaa
+0aab
+0aac
+
+#2565000
+1aab
+1aac
+
+#2567500
+0aab
+0aac
+
+#2570000
+1aab
+1aac
+
+#2572500
+0aab
+0aac
+
+#2575000
+1aab
+1aac
+
+#2577500
+0aab
+0aac
+
+#2580000
+1aab
+1aac
+
+#2582500
+0aab
+0aac
+
+#2585000
+1aab
+1aac
+
+#2587500
+0aab
+0aac
+
+#2590000
+1aab
+1aac
+
+#2592500
+0aab
+0aac
+
+#2595000
+1aab
+1aac
+
+#2597500
+0aab
+0aac
+
+#2600000
+1aab
+1aac
+
+#2602500
+0aab
+0aac
+
+#2605000
+1aab
+1aac
+
+#2607500
+0aab
+0aac
+
+#2610000
+1aab
+1aac
+
+#2612500
+0aab
+0aac
+
+#2615000
+1aab
+1aac
+
+#2617500
+0aab
+0aac
+
+#2620000
+1aab
+1aac
+
+#2622500
+0aab
+0aac
+
+#2625000
+1aaa
+1aab
+1aac
+b1111111101 aad
+1aag
+0aah
+b10000010010 aao
+1aar
+0aas
+b10000100111 aaz
+1abc
+0abd
+b10000111100 abk
+1abn
+0abo
+b10001010001 abv
+1aby
+0abz
+b10001100110 acg
+1acj
+0ack
+b10001111011 acr
+1acu
+0acv
+b10010010000 adc
+1adf
+0adg
+b10010100101 adn
+1adq
+0adr
+b10010111010 ady
+1aeb
+0aec
+b10011001111 aej
+1aem
+0aen
+b10011100100 aeu
+1aex
+0aey
+b10011111001 aff
+1afi
+0afj
+b10100001110 afq
+1aft
+0afu
+b10100100011 agb
+1age
+0agf
+b10100111000 agm
+1agp
+0agq
+
+#2627500
+0aab
+0aac
+
+#2630000
+1aab
+1aac
+
+#2632500
+0aab
+0aac
+
+#2635000
+1aab
+1aac
+b10000010010 aai
+1aal
+0aam
+b1111111101 aat
+1aaw
+0aax
+b10000111100 abe
+1abh
+0abi
+b10000100111 abp
+1abs
+0abt
+b10001100110 aca
+1acd
+0ace
+b10001010001 acl
+1aco
+0acp
+b10010010000 acw
+1acz
+0ada
+b10001111011 adh
+1adk
+0adl
+b10010111010 ads
+1adv
+0adw
+b10010100101 aed
+1aeg
+0aeh
+b10011100100 aeo
+1aer
+0aes
+b10011001111 aez
+1afc
+0afd
+b10100001110 afk
+1afn
+0afo
+b10011111001 afv
+1afy
+0afz
+b10100111000 agg
+1agj
+0agk
+b10100100011 agr
+1agu
+0agv
+
+#2637500
+0aab
+0aac
+
+#2640000
+1aab
+1aac
+
+#2642500
+0aab
+0aac
+
+#2645000
+1aab
+1aac
+
+#2647500
+0aab
+0aac
+
+#2650000
+1aab
+1aac
+
+#2652500
+0aab
+0aac
+
+#2655000
+1aab
+1aac
+
+#2657500
+0aab
+0aac
+
+#2660000
+1aab
+1aac
+
+#2662500
+0aab
+0aac
+
+#2665000
+1aab
+1aac
+
+#2667500
+0aab
+0aac
+
+#2670000
+1aab
+1aac
+
+#2672500
+0aab
+0aac
+
+#2675000
+1aab
+1aac
+
+#2677500
+0aab
+0aac
+
+#2680000
+1aab
+1aac
+
+#2682500
+0aab
+0aac
+
+#2685000
+1aab
+1aac
+
+#2687500
+0aaa
+0aab
+0aac
+
+#2690000
+1aab
+1aac
+
+#2692500
+0aab
+0aac
+
+#2695000
+1aab
+1aac
+
+#2697500
+0aab
+0aac
+
+#2700000
+1aab
+1aac
+
+#2702500
+0aab
+0aac
+
+#2705000
+1aab
+1aac
+
+#2707500
+0aab
+0aac
+
+#2710000
+1aab
+1aac
+
+#2712500
+0aab
+0aac
+
+#2715000
+1aab
+1aac
+
+#2717500
+0aab
+0aac
+
+#2720000
+1aab
+1aac
+
+#2722500
+0aab
+0aac
+
+#2725000
+1aab
+1aac
+
+#2727500
+0aab
+0aac
+
+#2730000
+1aab
+1aac
+
+#2732500
+0aab
+0aac
+
+#2735000
+1aab
+1aac
+
+#2737500
+0aab
+0aac
+
+#2740000
+1aab
+1aac
+
+#2742500
+0aab
+0aac
+
+#2745000
+1aab
+1aac
+
+#2747500
+0aab
+0aac
+
+#2750000
+1aaa
+1aab
+1aac
+b1111111110 aad
+0aag
+b10000010100 aao
+0aar
+b10000101010 aaz
+0abc
+b10001000000 abk
+0abn
+b10001010110 abv
+0aby
+b10001101100 acg
+0acj
+b10010000010 acr
+0acu
+b10010011000 adc
+0adf
+b10010101110 adn
+0adq
+b10011000100 ady
+0aeb
+b10011011010 aej
+0aem
+b10011110000 aeu
+0aex
+b10100000110 aff
+0afi
+b10100011100 afq
+0aft
+b10100110010 agb
+0age
+b10101001000 agm
+0agp
+
+#2752500
+0aab
+0aac
+
+#2755000
+1aab
+1aac
+
+#2757500
+0aab
+0aac
+
+#2760000
+1aab
+1aac
+b10000010100 aai
+0aal
+b1111111110 aat
+0aaw
+b10001000000 abe
+0abh
+b10000101010 abp
+0abs
+b10001101100 aca
+0acd
+b10001010110 acl
+0aco
+b10010011000 acw
+0acz
+b10010000010 adh
+0adk
+b10011000100 ads
+0adv
+b10010101110 aed
+0aeg
+b10011110000 aeo
+0aer
+b10011011010 aez
+0afc
+b10100011100 afk
+0afn
+b10100000110 afv
+0afy
+b10101001000 agg
+0agj
+b10100110010 agr
+0agu
+
+#2762500
+0aab
+0aac
+
+#2765000
+1aab
+1aac
+
+#2767500
+0aab
+0aac
+
+#2770000
+1aab
+1aac
+
+#2772500
+0aab
+0aac
+
+#2775000
+1aab
+1aac
+
+#2777500
+0aab
+0aac
+
+#2780000
+1aab
+1aac
+
+#2782500
+0aab
+0aac
+
+#2785000
+1aab
+1aac
+
+#2787500
+0aab
+0aac
+
+#2790000
+1aab
+1aac
+
+#2792500
+0aab
+0aac
+
+#2795000
+1aab
+1aac
+
+#2797500
+0aab
+0aac
+
+#2800000
+1aab
+1aac
+
+#2802500
+0aab
+0aac
+
+#2805000
+1aab
+1aac
+
+#2807500
+0aab
+0aac
+
+#2810000
+1aab
+1aac
+
+#2812500
+0aaa
+0aab
+0aac
+
+#2815000
+1aab
+1aac
+
+#2817500
+0aab
+0aac
+
+#2820000
+1aab
+1aac
+
+#2822500
+0aab
+0aac
+
+#2825000
+1aab
+1aac
+
+#2827500
+0aab
+0aac
+
+#2830000
+1aab
+1aac
+
+#2832500
+0aab
+0aac
+
+#2835000
+1aab
+1aac
+
+#2837500
+0aab
+0aac
+
+#2840000
+1aab
+1aac
+
+#2842500
+0aab
+0aac
+
+#2845000
+1aab
+1aac
+
+#2847500
+0aab
+0aac
+
+#2850000
+1aab
+1aac
+
+#2852500
+0aab
+0aac
+
+#2855000
+1aab
+1aac
+
+#2857500
+0aab
+0aac
+
+#2860000
+1aab
+1aac
+
+#2862500
+0aab
+0aac
+
+#2865000
+1aab
+1aac
+
+#2867500
+0aab
+0aac
+
+#2870000
+1aab
+1aac
+
+#2872500
+0aab
+0aac
+
+#2875000
+1aaa
+1aab
+1aac
+b1111111111 aad
+1aag
+b10000010110 aao
+1aar
+b10000101101 aaz
+1abc
+b10001000100 abk
+1abn
+b10001011011 abv
+1aby
+b10001110010 acg
+1acj
+b10010001001 acr
+1acu
+b10010100000 adc
+1adf
+b10010110111 adn
+1adq
+b10011001110 ady
+1aeb
+b10011100101 aej
+1aem
+b10011111100 aeu
+1aex
+b10100010011 aff
+1afi
+b10100101010 afq
+1aft
+b10101000001 agb
+1age
+b10101011000 agm
+1agp
+
+#2877500
+0aab
+0aac
+
+#2880000
+1aab
+1aac
+
+#2882500
+0aab
+0aac
+
+#2885000
+1aab
+1aac
+b10000010110 aai
+1aal
+b1111111111 aat
+1aaw
+b10001000100 abe
+1abh
+b10000101101 abp
+1abs
+b10001110010 aca
+1acd
+b10001011011 acl
+1aco
+b10010100000 acw
+1acz
+b10010001001 adh
+1adk
+b10011001110 ads
+1adv
+b10010110111 aed
+1aeg
+b10011111100 aeo
+1aer
+b10011100101 aez
+1afc
+b10100101010 afk
+1afn
+b10100010011 afv
+1afy
+b10101011000 agg
+1agj
+b10101000001 agr
+1agu
+
+#2887500
+0aab
+0aac
+
+#2890000
+1aab
+1aac
+
+#2892500
+0aab
+0aac
+
+#2895000
+1aab
+1aac
+
+#2897500
+0aab
+0aac
+
+#2900000
+1aab
+1aac
+
+#2902500
+0aab
+0aac
+
+#2905000
+1aab
+1aac
+
+#2907500
+0aab
+0aac
+
+#2910000
+1aab
+1aac
+
+#2912500
+0aab
+0aac
+
+#2915000
+1aab
+1aac
+
+#2917500
+0aab
+0aac
+
+#2920000
+1aab
+1aac
+
+#2922500
+0aab
+0aac
+
+#2925000
+1aab
+1aac
+
+#2927500
+0aab
+0aac
+
+#2930000
+1aab
+1aac
+
+#2932500
+0aab
+0aac
+
+#2935000
+1aab
+1aac
+
+#2937500
+0aaa
+0aab
+0aac
+
+#2940000
+1aab
+1aac
+
+#2942500
+0aab
+0aac
+
+#2945000
+1aab
+1aac
+
+#2947500
+0aab
+0aac
+
+#2950000
+1aab
+1aac
+
+#2952500
+0aab
+0aac
+
+#2955000
+1aab
+1aac
+
+#2957500
+0aab
+0aac
+
+#2960000
+1aab
+1aac
+
+#2962500
+0aab
+0aac
+
+#2965000
+1aab
+1aac
+
+#2967500
+0aab
+0aac
+
+#2970000
+1aab
+1aac
+
+#2972500
+0aab
+0aac
+
+#2975000
+1aab
+1aac
+
+#2977500
+0aab
+0aac
+
+#2980000
+1aab
+1aac
+
+#2982500
+0aab
+0aac
+
+#2985000
+1aab
+1aac
+
+#2987500
+0aab
+0aac
+
+#2990000
+1aab
+1aac
+
+#2992500
+0aab
+0aac
+
+#2995000
+1aab
+1aac
+
+#2997500
+0aab
+0aac
+
+#3000000
+1aaa
+1aab
+1aac
+b10000000000 aad
+0aag
+b10000011000 aao
+0aar
+b10000110000 aaz
+0abc
+b10001001000 abk
+0abn
+b10001100000 abv
+0aby
+b10001111000 acg
+0acj
+b10010010000 acr
+0acu
+b10010101000 adc
+0adf
+b10011000000 adn
+0adq
+b10011011000 ady
+0aeb
+b10011110000 aej
+0aem
+b10100001000 aeu
+0aex
+b10100100000 aff
+0afi
+b10100111000 afq
+0aft
+b10101010000 agb
+0age
+b10101101000 agm
+0agp
+
+#3002500
+0aab
+0aac
+
+#3005000
+1aab
+1aac
+
+#3007500
+0aab
+0aac
+
+#3010000
+1aab
+1aac
+b10000011000 aai
+0aal
+b10000000000 aat
+0aaw
+b10001001000 abe
+0abh
+b10000110000 abp
+0abs
+b10001111000 aca
+0acd
+b10001100000 acl
+0aco
+b10010101000 acw
+0acz
+b10010010000 adh
+0adk
+b10011011000 ads
+0adv
+b10011000000 aed
+0aeg
+b10100001000 aeo
+0aer
+b10011110000 aez
+0afc
+b10100111000 afk
+0afn
+b10100100000 afv
+0afy
+b10101101000 agg
+0agj
+b10101010000 agr
+0agu
+
+#3012500
+0aab
+0aac
+
+#3015000
+1aab
+1aac
+
+#3017500
+0aab
+0aac
+
+#3020000
+1aab
+1aac
+
+#3022500
+0aab
+0aac
+
+#3025000
+1aab
+1aac
+
+#3027500
+0aab
+0aac
+
+#3030000
+1aab
+1aac
+
+#3032500
+0aab
+0aac
+
+#3035000
+1aab
+1aac
+
+#3037500
+0aab
+0aac
+
+#3040000
+1aab
+1aac
+
+#3042500
+0aab
+0aac
+
+#3045000
+1aab
+1aac
+
+#3047500
+0aab
+0aac
+
+#3050000
+1aab
+1aac
+
+#3052500
+0aab
+0aac
+
+#3055000
+1aab
+1aac
+
+#3057500
+0aab
+0aac
+
+#3060000
+1aab
+1aac
+
+#3062500
+0aaa
+0aab
+0aac
+
+#3065000
+1aab
+1aac
+
+#3067500
+0aab
+0aac
+
+#3070000
+1aab
+1aac
+
+#3072500
+0aab
+0aac
+
+#3075000
+1aab
+1aac
+
+#3077500
+0aab
+0aac
+
+#3080000
+1aab
+1aac
+
+#3082500
+0aab
+0aac
+
+#3085000
+1aab
+1aac
+
+#3087500
+0aab
+0aac
+
+#3090000
+1aab
+1aac
+
+#3092500
+0aab
+0aac
+
+#3095000
+1aab
+1aac
+
+#3097500
+0aab
+0aac
+
+#3100000
+1aab
+1aac
+
+#3102500
+0aab
+0aac
+
+#3105000
+1aab
+1aac
+
+#3107500
+0aab
+0aac
+
+#3110000
+1aab
+1aac
+
+#3112500
+0aab
+0aac
+
+#3115000
+1aab
+1aac
+
+#3117500
+0aab
+0aac
+
+#3120000
+1aab
+1aac
+
+#3122500
+0aab
+0aac
+
+#3125000
+1aaa
+1aab
+1aac
+b10000000001 aad
+1aag
+1aah
+b10000011010 aao
+1aar
+1aas
+b10000110011 aaz
+1abc
+1abd
+b10001001100 abk
+1abn
+1abo
+b10001100101 abv
+1aby
+1abz
+b10001111110 acg
+1acj
+1ack
+b10010010111 acr
+1acu
+1acv
+b10010110000 adc
+1adf
+1adg
+b10011001001 adn
+1adq
+1adr
+b10011100010 ady
+1aeb
+1aec
+b10011111011 aej
+1aem
+1aen
+b10100010100 aeu
+1aex
+1aey
+b10100101101 aff
+1afi
+1afj
+b10101000110 afq
+1aft
+1afu
+b10101011111 agb
+1age
+1agf
+b10101111000 agm
+1agp
+1agq
+
+#3127500
+0aab
+0aac
+
+#3130000
+1aab
+1aac
+
+#3132500
+0aab
+0aac
+
+#3135000
+1aab
+1aac
+b10000011010 aai
+1aal
+1aam
+b10000000001 aat
+1aaw
+1aax
+b10001001100 abe
+1abh
+1abi
+b10000110011 abp
+1abs
+1abt
+b10001111110 aca
+1acd
+1ace
+b10001100101 acl
+1aco
+1acp
+b10010110000 acw
+1acz
+1ada
+b10010010111 adh
+1adk
+1adl
+b10011100010 ads
+1adv
+1adw
+b10011001001 aed
+1aeg
+1aeh
+b10100010100 aeo
+1aer
+1aes
+b10011111011 aez
+1afc
+1afd
+b10101000110 afk
+1afn
+1afo
+b10100101101 afv
+1afy
+1afz
+b10101111000 agg
+1agj
+1agk
+b10101011111 agr
+1agu
+1agv
+
+#3137500
+0aab
+0aac
+
+#3140000
+1aab
+1aac
+
+#3142500
+0aab
+0aac
+
+#3145000
+1aab
+1aac
+
+#3147500
+0aab
+0aac
+
+#3150000
+1aab
+1aac
+
+#3152500
+0aab
+0aac
+
+#3155000
+1aab
+1aac
+
+#3157500
+0aab
+0aac
+
+#3160000
+1aab
+1aac
+
+#3162500
+0aab
+0aac
+
+#3165000
+1aab
+1aac
+
+#3167500
+0aab
+0aac
+
+#3170000
+1aab
+1aac
+
+#3172500
+0aab
+0aac
+
+#3175000
+1aab
+1aac
+
+#3177500
+0aab
+0aac
+
+#3180000
+1aab
+1aac
+
+#3182500
+0aab
+0aac
+
+#3185000
+1aab
+1aac
+
+#3187500
+0aaa
+0aab
+0aac
+
+#3190000
+1aab
+1aac
+
+#3192500
+0aab
+0aac
+
+#3195000
+1aab
+1aac
+
+#3197500
+0aab
+0aac
+
+#3200000
+1aab
+1aac
+
+#3202500
+0aab
+0aac
+
+#3205000
+1aab
+1aac
+
+#3207500
+0aab
+0aac
+
+#3210000
+1aab
+1aac
+
+#3212500
+0aab
+0aac
+
+#3215000
+1aab
+1aac
+
+#3217500
+0aab
+0aac
+
+#3220000
+1aab
+1aac
+
+#3222500
+0aab
+0aac
+
+#3225000
+1aab
+1aac
+
+#3227500
+0aab
+0aac
+
+#3230000
+1aab
+1aac
+
+#3232500
+0aab
+0aac
+
+#3235000
+1aab
+1aac
+
+#3237500
+0aab
+0aac
+
+#3240000
+1aab
+1aac
+
+#3242500
+0aab
+0aac
+
+#3245000
+1aab
+1aac
+
+#3247500
+0aab
+0aac
+
+#3250000
+1aaa
+1aab
+1aac
+
+#3252500
+0aab
+0aac
+
+#3255000
+1aab
+1aac
+
+#3257500
+0aab
+0aac
+
+#3260000
+1aab
+1aac
+
+#3262500
+0aab
+0aac
+
+#3265000
+1aab
+1aac
+
+#3267500
+0aab
+0aac
+
+#3270000
+1aab
+1aac
+
+#3272500
+0aab
+0aac
+
+#3275000
+1aab
+1aac
+
+#3277500
+0aab
+0aac
+
+#3280000
+1aab
+1aac
+
+#3282500
+0aab
+0aac
+
+#3285000
+1aab
+1aac
+
+#3287500
+0aab
+0aac
+
+#3290000
+1aab
+1aac
+
+#3292500
+0aab
+0aac
+
+#3295000
+1aab
+1aac
+
+#3297500
+0aab
+0aac
+
+#3300000
+1aab
+1aac
+
+#3302500
+0aab
+0aac
+
+#3305000
+1aab
+1aac
+
+#3307500
+0aab
+0aac
+
+#3310000
+1aab
+1aac
+
+#3312500
+0aaa
+0aab
+0aac
+
+#3315000
+1aab
+1aac
+
+#3317500
+0aab
+0aac
+
+#3320000
+1aab
+1aac
+
+#3322500
+0aab
+0aac
+
+#3325000
+1aab
+1aac
+
+#3327500
+0aab
+0aac
+
+#3330000
+1aab
+1aac
+
+#3332500
+0aab
+0aac
+
+#3335000
+1aab
+1aac
+
+#3337500
+0aab
+0aac
+
+#3340000
+1aab
+1aac
+
+#3342500
+0aab
+0aac
+
+#3345000
+1aab
+1aac
+
+#3347500
+0aab
+0aac
+
+#3350000
+1aab
+1aac
+
+#3352500
+0aab
+0aac
+
+#3355000
+1aab
+1aac
+
+#3357500
+0aab
+0aac
+
+#3360000
+1aab
+1aac
+
+#3362500
+0aab
+0aac
+
+#3365000
+1aab
+1aac
+
+#3367500
+0aab
+0aac
+
+#3370000
+1aab
+1aac
+
+#3372500
+0aab
+0aac
+
+#3375000
+1aaa
+1aab
+1aac
+
+#3377500
+0aab
+0aac
+
+#3380000
+1aab
+1aac
+
+#3382500
+0aab
+0aac
+
+#3385000
+1aab
+1aac
+
+#3387500
+0aab
+0aac
+
+#3390000
+1aab
+1aac
+
+#3392500
+0aab
+0aac
+
+#3395000
+1aab
+1aac
+
+#3397500
+0aab
+0aac
+
+#3400000
+1aab
+1aac
+
+#3402500
+0aab
+0aac
+
+#3405000
+1aab
+1aac
+
+#3407500
+0aab
+0aac
+
+#3410000
+1aab
+1aac
+
+#3412500
+0aab
+0aac
+
+#3415000
+1aab
+1aac
+
+#3417500
+0aab
+0aac
+
+#3420000
+1aab
+1aac
+
+#3422500
+0aab
+0aac
+
+#3425000
+1aab
+1aac
+
+#3427500
+0aab
+0aac
+
+#3430000
+1aab
+1aac
+
+#3432500
+0aab
+0aac
+
+#3435000
+1aab
+1aac
+
+#3437500
+0aaa
+0aab
+0aac
+
+#3440000
+1aab
+1aac
+
+#3442500
+0aab
+0aac
+
+#3445000
+1aab
+1aac
+
+#3447500
+0aab
+0aac
+
+#3450000
+1aab
+1aac
+
+#3452500
+0aab
+0aac
+
+#3455000
+1aab
+1aac
+
+#3457500
+0aab
+0aac
+
+#3460000
+1aab
+1aac
+
+#3462500
+0aab
+0aac
+
+#3465000
+1aab
+1aac
+
+#3467500
+0aab
+0aac
+
+#3470000
+1aab
+1aac
+
+#3472500
+0aab
+0aac
+
+#3475000
+1aab
+1aac
+
+#3477500
+0aab
+0aac
+
+#3480000
+1aab
+1aac
+
+#3482500
+0aab
+0aac
+
+#3485000
+1aab
+1aac
+
+#3487500
+0aab
+0aac
+
+#3490000
+1aab
+1aac
+
+#3492500
+0aab
+0aac
+
+#3495000
+1aab
+1aac
+
+#3497500
+0aab
+0aac
+
+#3500000
+1aaa
+1aab
+1aac
+
+#3502500
+0aab
+0aac
+
+#3505000
+1aab
+1aac
+
+#3507500
+0aab
+0aac
+
+#3510000
+1aab
+1aac
+
+#3512500
+0aab
+0aac
+
+#3515000
+1aab
+1aac
+
+#3517500
+0aab
+0aac
+
+#3520000
+1aab
+1aac
+
+#3522500
+0aab
+0aac
+
+#3525000
+1aab
+1aac
+
+#3527500
+0aab
+0aac
+
+#3530000
+1aab
+1aac
+
+#3532500
+0aab
+0aac
+
+#3535000
+1aab
+1aac
+
+#3537500
+0aab
+0aac
+
+#3540000
+1aab
+1aac
+
+#3542500
+0aab
+0aac
+
+#3545000
+1aab
+1aac
+
+#3547500
+0aab
+0aac
+
+#3550000
+1aab
+1aac
+
+#3552500
+0aab
+0aac
+
+#3555000
+1aab
+1aac
+
+#3557500
+0aab
+0aac
+
+#3560000
+1aab
+1aac
+
+#3562500
+0aaa
+0aab
+0aac
+
+#3565000
+1aab
+1aac
+
+#3567500
+0aab
+0aac
+
+#3570000
+1aab
+1aac
+
+#3572500
+0aab
+0aac
+
+#3575000
+1aab
+1aac
+
+#3577500
+0aab
+0aac
+
+#3580000
+1aab
+1aac
+
+#3582500
+0aab
+0aac
+
+#3585000
+1aab
+1aac
+
+#3587500
+0aab
+0aac
+
+#3590000
+1aab
+1aac
+
+#3592500
+0aab
+0aac
+
+#3595000
+1aab
+1aac
+
+#3597500
+0aab
+0aac
+
+#3600000
+1aab
+1aac
+
+#3602500
+0aab
+0aac
+
+#3605000
+1aab
+1aac
+
+#3607500
+0aab
+0aac
+
+#3610000
+1aab
+1aac
+
+#3612500
+0aab
+0aac
+
+#3615000
+1aab
+1aac
+
+#3617500
+0aab
+0aac
+
+#3620000
+1aab
+1aac
+
+#3622500
+0aab
+0aac
+
+#3625000
+1aaa
+1aab
+1aac
+
+#3627500
+0aab
+0aac
+
+#3630000
+1aab
+1aac
+
+#3632500
+0aab
+0aac
+
+#3635000
+1aab
+1aac
+
+#3637500
+0aab
+0aac
+
+#3640000
+1aab
+1aac
+
+#3642500
+0aab
+0aac
+
+#3645000
+1aab
+1aac
+
+#3647500
+0aab
+0aac
+
+#3650000
+1aab
+1aac
+
+#3652500
+0aab
+0aac
+
+#3655000
+1aab
+1aac
+
+#3657500
+0aab
+0aac
+
+#3660000
+1aab
+1aac
+
+#3662500
+0aab
+0aac
+
+#3665000
+1aab
+1aac
+
+#3667500
+0aab
+0aac
+
+#3670000
+1aab
+1aac
+
+#3672500
+0aab
+0aac
+
+#3675000
+1aab
+1aac
+
+#3677500
+0aab
+0aac
+
+#3680000
+1aab
+1aac
+
+#3682500
+0aab
+0aac
+
+#3685000
+1aab
+1aac
+
+#3687500
+0aaa
+0aab
+0aac
+
+#3690000
+1aab
+1aac
+
+#3692500
+0aab
+0aac
+
+#3695000
+1aab
+1aac
+
+#3697500
+0aab
+0aac
+
+#3700000
+1aab
+1aac
+
+#3702500
+0aab
+0aac
+
+#3705000
+1aab
+1aac
+
+#3707500
+0aab
+0aac
+
+#3710000
+1aab
+1aac
+
+#3712500
+0aab
+0aac
+
+#3715000
+1aab
+1aac
+
+#3717500
+0aab
+0aac
+
+#3720000
+1aab
+1aac
+
+#3722500
+0aab
+0aac
+
+#3725000
+1aab
+1aac
+
+#3727500
+0aab
+0aac
+
+#3730000
+1aab
+1aac
+
+#3732500
+0aab
+0aac
+
+#3735000
+1aab
+1aac
+
+#3737500
+0aab
+0aac
+
+#3740000
+1aab
+1aac
+
+#3742500
+0aab
+0aac
+
+#3745000
+1aab
+1aac
+
+#3747500
+0aab
+0aac
+
+#3750000
+1aaa
+1aab
+1aac
+
+#3752500
+0aab
+0aac
+
+#3755000
+1aab
+1aac
+
+#3757500
+0aab
+0aac
+
+#3760000
+1aab
+1aac
+
+#3762500
+0aab
+0aac
+
+#3765000
+1aab
+1aac
+
+#3767500
+0aab
+0aac
+
+#3770000
+1aab
+1aac
+
+#3772500
+0aab
+0aac
+
+#3775000
+1aab
+1aac
+
+#3777500
+0aab
+0aac
+
+#3780000
+1aab
+1aac
+
+#3782500
+0aab
+0aac
+
+#3785000
+1aab
+1aac
+
+#3787500
+0aab
+0aac
+
+#3790000
+1aab
+1aac
+
+#3792500
+0aab
+0aac
+
+#3795000
+1aab
+1aac
+
+#3797500
+0aab
+0aac
+
+#3800000
+1aab
+1aac
+
+#3802500
+0aab
+0aac
+
+#3805000
+1aab
+1aac
+
+#3807500
+0aab
+0aac
+
+#3810000
+1aab
+1aac
+
+#3812500
+0aaa
+0aab
+0aac
+
+#3815000
+1aab
+1aac
+
+#3817500
+0aab
+0aac
+
+#3820000
+1aab
+1aac
+
+#3822500
+0aab
+0aac
+
+#3825000
+1aab
+1aac
+
+#3827500
+0aab
+0aac
+
+#3830000
+1aab
+1aac
+
+#3832500
+0aab
+0aac
+
+#3835000
+1aab
+1aac
+
+#3837500
+0aab
+0aac
+
+#3840000
+1aab
+1aac
+
+#3842500
+0aab
+0aac
+
+#3845000
+1aab
+1aac
+
+#3847500
+0aab
+0aac
+
+#3850000
+1aab
+1aac
+
+#3852500
+0aab
+0aac
+
+#3855000
+1aab
+1aac
+
+#3857500
+0aab
+0aac
+
+#3860000
+1aab
+1aac
+
+#3862500
+0aab
+0aac
+
+#3865000
+1aab
+1aac
+
+#3867500
+0aab
+0aac
+
+#3870000
+1aab
+1aac
+
+#3872500
+0aab
+0aac
+
+#3875000
+1aaa
+1aab
+1aac
+
+#3877500
+0aab
+0aac
+
+#3880000
+1aab
+1aac
+
+#3882500
+0aab
+0aac
+
+#3885000
+1aab
+1aac
+
+#3887500
+0aab
+0aac
+
+#3890000
+1aab
+1aac
+
+#3892500
+0aab
+0aac
+
+#3895000
+1aab
+1aac
+
+#3897500
+0aab
+0aac
+
+#3900000
+1aab
+1aac
+
+#3902500
+0aab
+0aac
+
+#3905000
+1aab
+1aac
+
+#3907500
+0aab
+0aac
+
+#3910000
+1aab
+1aac
+
+#3912500
+0aab
+0aac
+
+#3915000
+1aab
+1aac
+
+#3917500
+0aab
+0aac
+
+#3920000
+1aab
+1aac
+
+#3922500
+0aab
+0aac
+
+#3925000
+1aab
+1aac
+
+#3927500
+0aab
+0aac
+
+#3930000
+1aab
+1aac
+
+#3932500
+0aab
+0aac
+
+#3935000
+1aab
+1aac
+
+#3937500
+0aaa
+0aab
+0aac
+
+#3940000
+1aab
+1aac
+
+#3942500
+0aab
+0aac
+
+#3945000
+1aab
+1aac
+
+#3947500
+0aab
+0aac
+
+#3950000
+1aab
+1aac
+
+#3952500
+0aab
+0aac
+
+#3955000
+1aab
+1aac
+
+#3957500
+0aab
+0aac
+
+#3960000
+1aab
+1aac
+
+#3962500
+0aab
+0aac
+
+#3965000
+1aab
+1aac
+
+#3967500
+0aab
+0aac
+
+#3970000
+1aab
+1aac
+
+#3972500
+0aab
+0aac
+
+#3975000
+1aab
+1aac
+
+#3977500
+0aab
+0aac
+
+#3980000
+1aab
+1aac
+
+#3982500
+0aab
+0aac
+
+#3985000
+1aab
+1aac
+
+#3987500
+0aab
+0aac
+
+#3990000
+1aab
+1aac
+
+#3992500
+0aab
+0aac
+
+#3995000
+1aab
+1aac
+
+#3997500
+0aab
+0aac
+
+#4000000
+1aaa
+1aab
+1aac
+
+#4002500
+0aab
+0aac
+
+#4005000
+1aab
+1aac
+
+#4007500
+0aab
+0aac
+
+#4010000
+1aab
+1aac
+
+#4012500
+0aab
+0aac
+
+#4015000
+1aab
+1aac
+
+#4017500
+0aab
+0aac
+
+#4020000
+1aab
+1aac
+
+#4022500
+0aab
+0aac
+
+#4025000
+1aab
+1aac
+
+#4027500
+0aab
+0aac
+
+#4030000
+1aab
+1aac
+
+#4032500
+0aab
+0aac
+
+#4035000
+1aab
+1aac
+
+#4037500
+0aab
+0aac
+
+#4040000
+1aab
+1aac
+
+#4042500
+0aab
+0aac
+
+#4045000
+1aab
+1aac
+
+#4047500
+0aab
+0aac
+
+#4050000
+1aab
+1aac
+
+#4052500
+0aab
+0aac
+
+#4055000
+1aab
+1aac
+
+#4057500
+0aab
+0aac
+
+#4060000
+1aab
+1aac
+
+#4062500
+0aaa
+0aab
+0aac
+
+#4065000
+1aab
+1aac
+
+#4067500
+0aab
+0aac
+
+#4070000
+1aab
+1aac
+
+#4072500
+0aab
+0aac
+
+#4075000
+1aab
+1aac
+
+#4077500
+0aab
+0aac
+
+#4080000
+1aab
+1aac
+
+#4082500
+0aab
+0aac
+
+#4085000
+1aab
+1aac
+
+#4087500
+0aab
+0aac
+
+#4090000
+1aab
+1aac
+
+#4092500
+0aab
+0aac
+
+#4095000
+1aab
+1aac
+
+#4097500
+0aab
+0aac
+
+#4100000
+1aab
+1aac
+
+#4102500
+0aab
+0aac
+
+#4105000
+1aab
+1aac
+
+#4107500
+0aab
+0aac
+
+#4110000
+1aab
+1aac
+
+#4112500
+0aab
+0aac
+
+#4115000
+1aab
+1aac
+
+#4117500
+0aab
+0aac
+
+#4120000
+1aab
+1aac
+
+#4122500
+0aab
+0aac
+
+#4125000
+1aaa
+1aab
+1aac
+
+#4127500
+0aab
+0aac
+
+#4130000
+1aab
+1aac
+
+#4132500
+0aab
+0aac
+
+#4135000
+1aab
+1aac
+
+#4137500
+0aab
+0aac
+
+#4140000
+1aab
+1aac
+
+#4142500
+0aab
+0aac
+
+#4145000
+1aab
+1aac
+
+#4147500
+0aab
+0aac
+
+#4150000
+1aab
+1aac
+
+#4152500
+0aab
+0aac
+
+#4155000
+1aab
+1aac
+
+#4157500
+0aab
+0aac
+
+#4160000
+1aab
+1aac
+
+#4162500
+0aab
+0aac
+
+#4165000
+1aab
+1aac
+
+#4167500
+0aab
+0aac
+
+#4170000
+1aab
+1aac
+
+#4172500
+0aab
+0aac
+
+#4175000
+1aab
+1aac
+
+#4177500
+0aab
+0aac
+
+#4180000
+1aab
+1aac
+
+#4182500
+0aab
+0aac
+
+#4185000
+1aab
+1aac
+
+#4187500
+0aaa
+0aab
+0aac
+
+#4190000
+1aab
+1aac
+
+#4192500
+0aab
+0aac
+
+#4195000
+1aab
+1aac
+
+#4197500
+0aab
+0aac
+
+#4200000
+1aab
+1aac
+
+#4202500
+0aab
+0aac
+
+#4205000
+1aab
+1aac
+
+#4207500
+0aab
+0aac
+
+#4210000
+1aab
+1aac
+
+#4212500
+0aab
+0aac
+
+#4215000
+1aab
+1aac
+
+#4217500
+0aab
+0aac
+
+#4220000
+1aab
+1aac
+
+#4222500
+0aab
+0aac
+
+#4225000
+1aab
+1aac
+
+#4227500
+0aab
+0aac
+
+#4230000
+1aab
+1aac
+
+#4232500
+0aab
+0aac
+
+#4235000
+1aab
+1aac
+
+#4237500
+0aab
+0aac
+
+#4240000
+1aab
+1aac
+
+#4242500
+0aab
+0aac
+
+#4245000
+1aab
+1aac
+
+#4247500
+0aab
+0aac
+
+#4250000
+1aaa
+1aab
+1aac
+
+#4252500
+0aab
+0aac
+
+#4255000
+1aab
+1aac
+
+#4257500
+0aab
+0aac
+
+#4260000
+1aab
+1aac
+
+#4262500
+0aab
+0aac
+
+#4265000
+1aab
+1aac
+
+#4267500
+0aab
+0aac
+
+#4270000
+1aab
+1aac
+
+#4272500
+0aab
+0aac
+
+#4275000
+1aab
+1aac
+
+#4277500
+0aab
+0aac
+
+#4280000
+1aab
+1aac
+
+#4282500
+0aab
+0aac
+
+#4285000
+1aab
+1aac
+
+#4287500
+0aab
+0aac
+
+#4290000
+1aab
+1aac
+
+#4292500
+0aab
+0aac
+
+#4295000
+1aab
+1aac
+
+#4297500
+0aab
+0aac
+
+#4300000
+1aab
+1aac
+
+#4302500
+0aab
+0aac
+
+#4305000
+1aab
+1aac
+
+#4307500
+0aab
+0aac
+
+#4310000
+1aab
+1aac
+
+#4312500
+0aaa
+0aab
+0aac
+
+#4315000
+1aab
+1aac
+
+#4317500
+0aab
+0aac
+
+#4320000
+1aab
+1aac
+
+#4322500
+0aab
+0aac
+
+#4325000
+1aab
+1aac
+
+#4327500
+0aab
+0aac
+
+#4330000
+1aab
+1aac
+
+#4332500
+0aab
+0aac
+
+#4335000
+1aab
+1aac
+
+#4337500
+0aab
+0aac
+
+#4340000
+1aab
+1aac
+
+#4342500
+0aab
+0aac
+
+#4345000
+1aab
+1aac
+
+#4347500
+0aab
+0aac
+
+#4350000
+1aab
+1aac
+
+#4352500
+0aab
+0aac
+
+#4355000
+1aab
+1aac
+
+#4357500
+0aab
+0aac
+
+#4360000
+1aab
+1aac
+
+#4362500
+0aab
+0aac
+
+#4365000
+1aab
+1aac
+
+#4367500
+0aab
+0aac
+
+#4370000
+1aab
+1aac
+
+#4372500
+0aab
+0aac
+
+#4375000
+1aaa
+1aab
+1aac
+
+#4377500
+0aab
+0aac
+
+#4380000
+1aab
+1aac
+
+#4382500
+0aab
+0aac
+
+#4385000
+1aab
+1aac
+
+#4387500
+0aab
+0aac
+
+#4390000
+1aab
+1aac
+
+#4392500
+0aab
+0aac
+
+#4395000
+1aab
+1aac
+
+#4397500
+0aab
+0aac
+
+#4400000
+1aab
+1aac
+
+#4402500
+0aab
+0aac
+
+#4405000
+1aab
+1aac
+
+#4407500
+0aab
+0aac
+
+#4410000
+1aab
+1aac
+
+#4412500
+0aab
+0aac
+
+#4415000
+1aab
+1aac
+
+#4417500
+0aab
+0aac
+
+#4420000
+1aab
+1aac
+
+#4422500
+0aab
+0aac
+
+#4425000
+1aab
+1aac
+
+#4427500
+0aab
+0aac
+
+#4430000
+1aab
+1aac
+
+#4432500
+0aab
+0aac
+
+#4435000
+1aab
+1aac
+
+#4437500
+0aaa
+0aab
+0aac
+
+#4440000
+1aab
+1aac
+
+#4442500
+0aab
+0aac
+
+#4445000
+1aab
+1aac
+
+#4447500
+0aab
+0aac
+
+#4450000
+1aab
+1aac
+
+#4452500
+0aab
+0aac
+
+#4455000
+1aab
+1aac
+
+#4457500
+0aab
+0aac
+
+#4460000
+1aab
+1aac
+
+#4462500
+0aab
+0aac
+
+#4465000
+1aab
+1aac
+
+#4467500
+0aab
+0aac
+
+#4470000
+1aab
+1aac
+
+#4472500
+0aab
+0aac
+
+#4475000
+1aab
+1aac
+
+#4477500
+0aab
+0aac
+
+#4480000
+1aab
+1aac
+
+#4482500
+0aab
+0aac
+
+#4485000
+1aab
+1aac
+
+#4487500
+0aab
+0aac
+
+#4490000
+1aab
+1aac
+
+#4492500
+0aab
+0aac
+
+#4495000
+1aab
+1aac
+
+#4497500
+0aab
+0aac
+
+#4500000
+1aaa
+1aab
+1aac
+
+#4502500
+0aab
+0aac
+
+#4505000
+1aab
+1aac
+
+#4507500
+0aab
+0aac
+
+#4510000
+1aab
+1aac
+
+#4512500
+0aab
+0aac
+
+#4515000
+1aab
+1aac
+
+#4517500
+0aab
+0aac
+
+#4520000
+1aab
+1aac
+
+#4522500
+0aab
+0aac
+
+#4525000
+1aab
+1aac
+
+#4527500
+0aab
+0aac
+
+#4530000
+1aab
+1aac
+
+#4532500
+0aab
+0aac
+
+#4535000
+1aab
+1aac
+
+#4537500
+0aab
+0aac
+
+#4540000
+1aab
+1aac
+
+#4542500
+0aab
+0aac
+
+#4545000
+1aab
+1aac
+
+#4547500
+0aab
+0aac
+
+#4550000
+1aab
+1aac
+
+#4552500
+0aab
+0aac
+
+#4555000
+1aab
+1aac
+
+#4557500
+0aab
+0aac
+
+#4560000
+1aab
+1aac
+
+#4562500
+0aaa
+0aab
+0aac
+
+#4565000
+1aab
+1aac
+
+#4567500
+0aab
+0aac
+
+#4570000
+1aab
+1aac
+
+#4572500
+0aab
+0aac
+
+#4575000
+1aab
+1aac
+
+#4577500
+0aab
+0aac
+
+#4580000
+1aab
+1aac
+
+#4582500
+0aab
+0aac
+
+#4585000
+1aab
+1aac
+
+#4587500
+0aab
+0aac
+
+#4590000
+1aab
+1aac
+
+#4592500
+0aab
+0aac
+
+#4595000
+1aab
+1aac
+
+#4597500
+0aab
+0aac
+
+#4600000
+1aab
+1aac
+
+#4602500
+0aab
+0aac
+
+#4605000
+1aab
+1aac
+
+#4607500
+0aab
+0aac
+
+#4610000
+1aab
+1aac
+
+#4612500
+0aab
+0aac
+
+#4615000
+1aab
+1aac
+
+#4617500
+0aab
+0aac
+
+#4620000
+1aab
+1aac
+
+#4622500
+0aab
+0aac
+
+#4625000
+1aaa
+1aab
+1aac
+
+#4627500
+0aab
+0aac
+
+#4630000
+1aab
+1aac
+
+#4632500
+0aab
+0aac
+
+#4635000
+1aab
+1aac
+
+#4637500
+0aab
+0aac
+
+#4640000
+1aab
+1aac
+
+#4642500
+0aab
+0aac
+
+#4645000
+1aab
+1aac
+
+#4647500
+0aab
+0aac
+
+#4650000
+1aab
+1aac
+
+#4652500
+0aab
+0aac
+
+#4655000
+1aab
+1aac
+
+#4657500
+0aab
+0aac
+
+#4660000
+1aab
+1aac
+
+#4662500
+0aab
+0aac
+
+#4665000
+1aab
+1aac
+
+#4667500
+0aab
+0aac
+
+#4670000
+1aab
+1aac
+
+#4672500
+0aab
+0aac
+
+#4675000
+1aab
+1aac
+
+#4677500
+0aab
+0aac
+
+#4680000
+1aab
+1aac
+
+#4682500
+0aab
+0aac
+
+#4685000
+1aab
+1aac
+
+#4687500
+0aaa
+0aab
+0aac
+
+#4690000
+1aab
+1aac
+
+#4692500
+0aab
+0aac
+
+#4695000
+1aab
+1aac
+
+#4697500
+0aab
+0aac
+
+#4700000
+1aab
+1aac
+
+#4702500
+0aab
+0aac
+
+#4705000
+1aab
+1aac
+
+#4707500
+0aab
+0aac
+
+#4710000
+1aab
+1aac
+
+#4712500
+0aab
+0aac
+
+#4715000
+1aab
+1aac
+
+#4717500
+0aab
+0aac
+
+#4720000
+1aab
+1aac
+
+#4722500
+0aab
+0aac
+
+#4725000
+1aab
+1aac
+
+#4727500
+0aab
+0aac
+
+#4730000
+1aab
+1aac
+
+#4732500
+0aab
+0aac
+
+#4735000
+1aab
+1aac
+
+#4737500
+0aab
+0aac
+
+#4740000
+1aab
+1aac
+
+#4742500
+0aab
+0aac
+
+#4745000
+1aab
+1aac
+
+#4747500
+0aab
+0aac
+
+#4750000
+1aaa
+1aab
+1aac
+
+#4752500
+0aab
+0aac
+
+#4755000
+1aab
+1aac
+
+#4757500
+0aab
+0aac
+
+#4760000
+1aab
+1aac
+
+#4762500
+0aab
+0aac
+
+#4765000
+1aab
+1aac
+
+#4767500
+0aab
+0aac
+
+#4770000
+1aab
+1aac
+
+#4772500
+0aab
+0aac
+
+#4775000
+1aab
+1aac
+
+#4777500
+0aab
+0aac
+
+#4780000
+1aab
+1aac
+
+#4782500
+0aab
+0aac
+
+#4785000
+1aab
+1aac
+
+#4787500
+0aab
+0aac
+
+#4790000
+1aab
+1aac
+
+#4792500
+0aab
+0aac
+
+#4795000
+1aab
+1aac
+
+#4797500
+0aab
+0aac
+
+#4800000
+1aab
+1aac
+
+#4802500
+0aab
+0aac
+
+#4805000
+1aab
+1aac
+
+#4807500
+0aab
+0aac
+
+#4810000
+1aab
+1aac
+
+#4812500
+0aaa
+0aab
+0aac
+
+#4815000
+1aab
+1aac
+
+#4817500
+0aab
+0aac
+
+#4820000
+1aab
+1aac
+
+#4822500
+0aab
+0aac
+
+#4825000
+1aab
+1aac
+
+#4827500
+0aab
+0aac
+
+#4830000
+1aab
+1aac
+
+#4832500
+0aab
+0aac
+
+#4835000
+1aab
+1aac
+
+#4837500
+0aab
+0aac
+
+#4840000
+1aab
+1aac
+
+#4842500
+0aab
+0aac
+
+#4845000
+1aab
+1aac
+
+#4847500
+0aab
+0aac
+
+#4850000
+1aab
+1aac
+
+#4852500
+0aab
+0aac
+
+#4855000
+1aab
+1aac
+
+#4857500
+0aab
+0aac
+
+#4860000
+1aab
+1aac
+
+#4862500
+0aab
+0aac
+
+#4865000
+1aab
+1aac
+
+#4867500
+0aab
+0aac
+
+#4870000
+1aab
+1aac
+
+#4872500
+0aab
+0aac
+
+#4875000
+1aaa
+1aab
+1aac
+
+#4877500
+0aab
+0aac
+
+#4880000
+1aab
+1aac
+
+#4882500
+0aab
+0aac
+
+#4885000
+1aab
+1aac
+
+#4887500
+0aab
+0aac
+
+#4890000
+1aab
+1aac
+
+#4892500
+0aab
+0aac
+
+#4895000
+1aab
+1aac
+
+#4897500
+0aab
+0aac
+
+#4900000
+1aab
+1aac
+
+#4902500
+0aab
+0aac
+
+#4905000
+1aab
+1aac
+
+#4907500
+0aab
+0aac
+
+#4910000
+1aab
+1aac
+
+#4912500
+0aab
+0aac
+
+#4915000
+1aab
+1aac
+
+#4917500
+0aab
+0aac
+
+#4920000
+1aab
+1aac
+
+#4922500
+0aab
+0aac
+
+#4925000
+1aab
+1aac
+
+#4927500
+0aab
+0aac
+
+#4930000
+1aab
+1aac
+
+#4932500
+0aab
+0aac
+
+#4935000
+1aab
+1aac
+
+#4937500
+0aaa
+0aab
+0aac
+
+#4940000
+1aab
+1aac
+
+#4942500
+0aab
+0aac
+
+#4945000
+1aab
+1aac
+
+#4947500
+0aab
+0aac
+
+#4950000
+1aab
+1aac
+
+#4952500
+0aab
+0aac
+
+#4955000
+1aab
+1aac
+
+#4957500
+0aab
+0aac
+
+#4960000
+1aab
+1aac
+
+#4962500
+0aab
+0aac
+
+#4965000
+1aab
+1aac
+
+#4967500
+0aab
+0aac
+
+#4970000
+1aab
+1aac
+
+#4972500
+0aab
+0aac
+
+#4975000
+1aab
+1aac
+
+#4977500
+0aab
+0aac
+
+#4980000
+1aab
+1aac
+
+#4982500
+0aab
+0aac
+
+#4985000
+1aab
+1aac
+
+#4987500
+0aab
+0aac
+
+#4990000
+1aab
+1aac
+
+#4992500
+0aab
+0aac
+
+#4995000
+1aab
+1aac
+
+#4997500
+0aab
+0aac
+
+#5000000
+1aaa
+1aab
+1aac
+
+#5002500
+0aab
+0aac
+
+#5005000
+1aab
+1aac
+
+#5007500
+0aab
+0aac
+
+#5010000
+1aab
+1aac
+
+#5012500
+0aab
+0aac
+
+#5015000
+1aab
+1aac
+
+#5017500
+0aab
+0aac
+
+#5020000
+1aab
+1aac
+
+#5022500
+0aab
+0aac
+
+#5025000
+1aab
+1aac
+
+#5027500
+0aab
+0aac
+
+#5030000
+1aab
+1aac
+
+#5032500
+0aab
+0aac
+
+#5035000
+1aab
+1aac
+
+#5037500
+0aab
+0aac
+
+#5040000
+1aab
+1aac
+
+#5042500
+0aab
+0aac
+
+#5045000
+1aab
+1aac
+
+#5047500
+0aab
+0aac
+
+#5050000
+1aab
+1aac
+
+#5052500
+0aab
+0aac
+
+#5055000
+1aab
+1aac
+
+#5057500
+0aab
+0aac
+
+#5060000
+1aab
+1aac
+
+#5062500
+0aaa
+0aab
+0aac
+
+#5065000
+1aab
+1aac
+
+#5067500
+0aab
+0aac
+
+#5070000
+1aab
+1aac
+
+#5072500
+0aab
+0aac
+
+#5075000
+1aab
+1aac
+
+#5077500
+0aab
+0aac
+
+#5080000
+1aab
+1aac
+
+#5082500
+0aab
+0aac
+
+#5085000
+1aab
+1aac
+
+#5087500
+0aab
+0aac
+
+#5090000
+1aab
+1aac
+
+#5092500
+0aab
+0aac
+
+#5095000
+1aab
+1aac
+
+#5097500
+0aab
+0aac
+
+#5100000
+1aab
+1aac
+
+#5102500
+0aab
+0aac
+
+#5105000
+1aab
+1aac
+
+#5107500
+0aab
+0aac
+
+#5110000
+1aab
+1aac
+
+#5112500
+0aab
+0aac
+
+#5115000
+1aab
+1aac
+
+#5117500
+0aab
+0aac
+
+#5120000
+1aab
+1aac
+
+#5122500
+0aab
+0aac
+
