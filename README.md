@@ -1,4 +1,4 @@
-# SystemC Network-on-Chip Router Simulation
+# SystemC Network-on-Chip Simulation
 
 ## Overview
 This was the Final Project for COE 838 (System On Chip Design). This project models and simulates a packet-based Network-on-Chip architecture using SystemC. The design began from a simple 1x2 mesh example and was extended into a functional 4x4 mesh containing 16 interconnected nodes, each with its own source, sink, and router. The goal of the project was to explore how data moves through a scalable on-chip interconnect, how routers coordinate packet forwarding, and how different traffic patterns affect communication across the network. 
